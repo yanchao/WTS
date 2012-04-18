@@ -1,0 +1,5 @@
+foundation_test BUILD_TYPE=debug
+kgdbTest BUILD_TYPE=debug
+hShellOcdTest BUILD_TYPE=debug
+mthread-stack  BUILD_TYPE=debug
+penguin-stack  BUILD_TYPE=debug

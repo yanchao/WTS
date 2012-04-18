@@ -1,0 +1,20 @@
+An Example Kernel Module Demonstration
+-----------------------------------------
+
+This sample kernel module demonstrates several 
+features: (a) simple kernel module, (b) parameter passing, 
+(c) a kernel timer, and (d) using systcl to change the 
+timeout.
+
+This is part of an advanced tutorial, demonstrating how 
+to build and debug a loadable kernel module for Linux 2.6.
+
+Note: This sample kernel module project creates the
+file testmod.ko, a kernel object module compatible 
+with Linux 2.6.
+
+To install this module, copy it to the target
+and enter the command:
+
+   insmod testmod.ko [timeout=2340]
+

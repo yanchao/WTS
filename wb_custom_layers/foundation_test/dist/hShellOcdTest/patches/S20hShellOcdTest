@@ -1,0 +1,5 @@
+#!/bin/sh
+
+if [ -x /usr/bin/hShellOcdTest ] ; then
+	/usr/bin/hShellOcdTest 5&
+fi

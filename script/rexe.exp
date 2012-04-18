@@ -1,0 +1,395 @@
+#!/bin/bash
+# each line ends with "\" to keep the TCL interpreter from executing it \
+if [ "$WIND_HOST_TYPE" = "x86-win32" ]; then \
+    exec tclsh "$0" ${1+"$@"}; \
+else \
+    exec expect -- "$0" ${1+"$@"}; \
+fi
+
+if {([info command expect] == "") && ($env(WIND_HOST_TYPE) == "x86-win32")} {
+    package require Expect
+}
+
+proc ssh_clean { } {
+    global env
+    set it [file join $env(HOME) {.ssh} known_hosts] 
+    if {[file exists $it]} {
+        file delete -force $it
+    }
+}
+
+proc get_fs { } {
+    global prompt
+    global rootfs
+    # send a newline to make sure we get back to the command line
+    send "\r"
+    expect {
+        "# " {
+            set rootfs "small"
+            set prompt "# "
+        } -re ".*root>" {
+            set rootfs "std"
+            set prompt "root>"
+        } timeout {
+            puts stderr "unknown target"
+            exit -1
+        }
+    }
+}
+
+proc uma_restart { } {
+    global prompt
+    # send a newline to make sure we get back to the command line
+    send "\r"
+    expect $prompt
+    
+    send "ps x | grep -v grep | grep -c usermode-agent \r"
+    expect {
+        -re "\r\n(\[0-9])+\[ \t]*\r" {
+            set num $expect_out(1,string)
+        } timeout {
+            exit -1
+        }
+    }
+    while { 0 < $num} {
+        send "ps x | grep \[u]sermode-agent \r"
+        expect {
+            -re "\r\n\[ \t]*(\[0-9]+)\[ \t]+" {
+                set pid "$expect_out(1,string)"
+                send "kill -9 $pid \r"
+                expect $prompt
+                incr num -1
+            } timeout {
+                exit -1
+            }
+        }
+    }
+    send "usermode-agent -V -daemon \r"
+    expect {
+        -re "Done\." {
+            return 0
+        } timeout {
+            exit -1
+        }
+    }
+}
+
+proc nr_debuggees {debuggee} {
+    global prompt
+    global ip_addr
+    global port
+    global rootfs
+    global spawn_id
+
+    # send a newline to make sure we get back to the command line
+    send "\r"
+
+    spawn ssh -o StrictHostKeyChecking=no root@$ip_addr -p $port
+    expect {
+        "password:" {
+            send "root\r"
+            exp_continue
+        } "$prompt" {
+            send "\r"
+            sleep 1
+        } timeout {
+            puts stderr "can not ssh to target with ip:$ip_addr and port:$port"
+            exit -1
+        }
+    }
+    send "ps x | grep -v grep | grep -c $debuggee \r"
+    expect {
+        -re "(\[0-9]+)\r" {
+            set num "$expect_out(1,string)"
+            send "exit \r"
+            send eof
+        } timeout {
+            exit -1
+        }
+    }
+    return $num
+}
+# only get the fist line
+proc get_pid {debuggee} {
+    global prompt
+    global ip_addr
+    global port
+    global rootfs
+    global spawn_id
+
+    # send a newline to make sure we get back to the command line
+    send "\r"
+
+    spawn ssh -o StrictHostKeyChecking=no root@$ip_addr -p $port
+    expect {
+        "password:" {
+            send "root\r"
+            exp_continue
+        } "$prompt" {
+            send "\r"
+            sleep 1
+        } timeout {
+            puts stderr "can not ssh to target with ip:$ip_addr and port:$port"
+            exit -1
+        }
+    }
+    send "ps x | grep -v grep | grep $debuggee \r"
+    expect {
+        -re "(\[0-9]+).*$debuggee\r" {
+            set pid "$expect_out(1,string)"
+        } timeout {
+            exit -1
+        }
+    }
+    send "exit \r"
+    send eof
+    return $pid
+}
+
+# try to get all the pids of the debuggee
+proc get_pids {debuggee} {
+    global prompt
+    global ip_addr
+    global port
+    global rootfs
+    global spawn_id
+    global pid_list
+
+    # send a newline to make sure we get back to the command line
+    send "\r"
+
+    spawn ssh -o StrictHostKeyChecking=no root@$ip_addr -p $port
+    expect {
+        "password:" {
+            send "root\r"
+            exp_continue
+        } "$prompt" {
+            send "\r"
+            sleep 1
+        } timeout {
+            puts stderr "can not ssh to target with ip:$ip_addr and port:$port"
+            exit -1
+        }
+    }
+    send "ps x | grep -v grep | grep $debuggee \r"
+    expect {
+        -re "(\[0-9]+).*?$debuggee" {
+            lappend pid_list "$expect_out(1,string)"
+            puts "pid_list : $pid_list"
+            exp_continue
+        }
+    }
+    send "exit \r"
+    send eof
+    return $pid_list
+}
+
+proc debuggee_restart_screen {debuggee} {
+    global prompt
+
+    # get prompt
+    send "\r"
+    expect $prompt
+
+    send "ps x | grep -v grep | grep -c SCREEN \r"
+    expect {
+        -re "\r\n(\[0-9])+\[ \t]*\r" {
+            set num $expect_out(1,string)
+        } timeout {
+            exit -1
+        }
+    }
+    while { 0 < $num} {
+        send "ps x | grep \[S]CREEN \r"
+        expect {
+            -re "\r\n\[ \t]*(\[0-9]+)\[ \t]+" {
+                set pid "$expect_out(1,string)"
+                send "kill -9 $pid \r"
+                expect $prompt
+                incr num -1
+            } timeout {
+                exit -1
+            }
+        }
+    }
+
+
+    # set .screenrc
+    send "echo escape ^Nn > /root/.screenrc \r"
+    expect $prompt
+
+    send "screen $debuggee \r"
+    #sleep 1
+
+    # send "ctrl N d"
+    send "\xe"
+    send "d"
+    expect $prompt
+    
+    for {set idx 0} {$idx < 2} {incr idx} {
+        # get prompt
+        send "\r"
+        expect $prompt
+    }
+
+    send eof
+}
+
+proc debuggee_restart_bg {debuggee} {
+    global prompt
+
+    # get prompt
+    send "\r"
+    expect $prompt
+
+    send "ps x | grep -v grep | grep -c $debuggee \r"
+    expect {
+        -re "\r\n(\[0-9])+\[ \t]*\r" {
+            set num $expect_out(1,string)
+        } timeout {
+        }
+    }
+
+    while { 0 < $num } {
+        send "ps x | grep -v grep | grep $debuggee \r"
+        expect {
+            -re "\r\n\[ \t]*(\[0-9]+)\[ \t]+" {
+                set pid "$expect_out(1,string)"
+                send "kill -9 $pid \r"
+                expect $prompt
+                incr num -1
+            } timeout {
+                exit -1
+            }
+        }
+    }
+
+    while {1} {
+        send " $debuggee & \r"
+
+        # sleep is very important ,thanks Johnny(peng.sun@windriver.com) :)
+        sleep 1
+
+        expect {
+            $prompt {
+            puts " $debuggee & \r"
+                break
+            } timeout {
+                exit -1
+            }
+        }
+    }
+}
+
+proc debuggee_restart {debuggee} {
+    global prompt
+    global rootfs
+    
+    if { "$rootfs" == "std" } {
+        debuggee_restart_screen $debuggee
+    } else {
+        debuggee_restart_bg $debuggee
+    }
+}
+proc stop_debuggee {pid} {
+    global ip_addr
+    global port
+    global prompt
+
+    spawn ssh -o StrictHostKeyChecking=no root@$ip_addr -p $port
+    expect {
+        "password:" {
+            send "root\r"
+        } timeout {
+            puts stderr "can not ssh to target with ip:$ip_addr and port:$port"
+            exit -1
+        }
+    }
+    expect $prompt
+    send "kill $pid \r"
+    expect $prompt
+    send "exit \r"
+}
+
+########### main start here##########
+
+set arguments   $argv
+set nArgs       [llength $arguments]
+set args        { }
+
+set ip_addr     127.0.0.1
+set port        4440
+set uma         /usr/bin/usermode-agent
+set debuggee    ""
+set dbg_flag    0
+set uma_flag    0
+set pid_list    {}
+
+set prompt      "# "
+
+# parse arguments
+for {set ix 0} {$ix < $nArgs} {incr ix} {
+    set arg [lindex $arguments $ix]
+    switch -exact -- $arg {
+        -p -
+        --port  {
+            incr ix
+            set port [lindex $arguments $ix]
+        }
+        -ip -
+        --ip_addr {
+            incr ix
+            set ip_addr [lindex $arguments $ix]
+        }
+        -d -
+        --debuggee {
+            incr ix
+            set debuggee [lindex $arguments $ix]
+            set dbg_flag 1
+        }
+        -d1 -
+        --one_debuggee {
+            incr ix
+            set debuggee [lindex $arguments $ix]
+            set one_flag 1
+        }
+        -u -
+        --uma {
+            set uma_flag 1
+        }
+        -h -
+        --help {
+            set help_flag 1
+        }
+    }
+}
+# delete ~/.ssh/known_hosts
+ssh_clean
+
+# spawn ssh
+eval spawn ssh -o StrictHostKeyChecking=no -t root@$ip_addr -p $port
+expect {
+    "password:" {
+        send "root\r"
+    } timeout {
+        puts stderr "can not ssh to target with ip:$ip_addr and port:$port"
+        exit -1
+    }
+}
+
+# deterimine file system type and set global prompt
+get_fs 
+
+# start uma
+if {1 == $uma_flag} {
+    uma_restart 
+}
+
+# start a debuggee
+if {1 == $dbg_flag} {
+    debuggee_restart $debuggee
+}
+#debuggee_start $debuggee
+
+exit 0
+

@@ -1,0 +1,28 @@
+The C demo Demonstration Program
+----------------------------------
+
+The C demo program demonstrates various C language features including
+structures, character arrays, linked lists, and recursion.  You can
+build and download this program to your VxWorks target.
+
+
+Features
+--------
+
+The following features are demonstrated from main():
+
+*   *Factorials:* The factorialDemo() function generates a factorial
+    table from 0! to 9!. Set a watch on fact_table to see the
+    creation of the table. This function calls the recursive function
+    factorial().
+
+*   *Fibonacci Sequence:* The fibonacciDemo() function creates a
+    fibonacci sequence with ten terms. Set a watch on fib_table to
+    see the creation of the sequence. This function calls the
+    recursive function fibonacci().
+
+*   *Structures, Arrays, and Linked Lists:* The remainder of the
+    program is a loop that demonstrates pointers, arrays,
+    structures, and linked lists. Set watches on cell_1, cell_2,
+    cell_3, and cell_4 to see the linked list operations. Set a watch
+    on the test_engineer[] array to see an array of structures.

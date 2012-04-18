@@ -1,0 +1,19 @@
+gdbserver
+screen
+libdfe_stack BUILD_TYPE=debug
+mthread-stack BUILD_TYPE=debug
+mthread-lib BUILD_TYPE=debug
+mthread-affinity BUILD_TYPE=debug
+mprocess-lib BUILD_TYPE=debug
+mprocess-affinity BUILD_TYPE=debug
+mod-debug BUILD_TYPE=debug
+mod-stack BUILD_TYPE=debug
+mod-thread BUILD_TYPE=debug
+mod-thread2 BUILD_TYPE=debug
+mod-affinity BUILD_TYPE=debug
+mod-affinity2 BUILD_TYPE=debug
+mod-cdev BUILD_TYPE=debug
+testmod BUILD_TYPE=debug
+penguin BUILD_TYPE=debug
+c_demo BUILD_TYPE=debug
+cpp_demo BUILD_TYPE=debug

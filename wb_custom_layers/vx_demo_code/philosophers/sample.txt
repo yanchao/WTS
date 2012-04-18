@@ -1,0 +1,9 @@
+The Philosophers Demonstration Program
+--------------------------------------
+
+This program demonstrates Dijkstra's Dining Philosophers Problem
+(see "Cooperating Sequential Processes," Technical Report EWD-123, Technological
+University, Eindhoven, The Netherlands, (1965)).  It is considered a classic 
+process synchronization problem.  It is implemented using SVR2 semaphores and 
+curses.  With this as an example, you may be able to figure out how to use 
+SV semaphores.
