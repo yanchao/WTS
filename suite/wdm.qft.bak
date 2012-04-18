@@ -19295,9 +19295,13 @@ rc.setLocal('rseConnected',rseConnected)</code>
       <SetGlobalStep disabled="true" id="_1vrY" local="true" varname="client">
         <default>wdm_start_with_ws</default>
       </SetGlobalStep>
-      <ProcedureCall id="_1vrZ" procedure="qfs.qft#qfs.swt.instrument.setup">
-        <variable name="sutdir">$(WIND_WRWB_PATH)</variable>
-      </ProcedureCall>
+      <TryStep id="_1vu-" name="instrumentSUT">
+        <ProcedureCall id="_1vrZ"
+                       procedure="qfs.qft#qfs.swt.instrument.setup">
+          <variable name="sutdir">$(WIND_WRWB_PATH)</variable>
+        </ProcedureCall>
+        <CatchSequence exception="TestException" id="_1vv0" maxerror="0"/>
+      </TryStep>
       <SUTClientStarter client="$(client)" executable="$(wb_exec)" id="_1vra">
         <parameter>-clean</parameter>
         <parameter>-configuration</parameter>
@@ -19387,9 +19391,12 @@ rc.setLocal('rseConnected',rseConnected)</code>
       </TryStep>
     </Procedure>
     <Procedure id="_3b" name="wdmStartWs">
-      <ProcedureCall id="_3d" procedure="qfs.qft#qfs.swt.instrument.setup">
-        <variable name="sutdir">$(WIND_WRWB_PATH)</variable>
-      </ProcedureCall>
+      <TryStep id="_1vuz" name="instrumentSUT">
+        <ProcedureCall id="_3d" procedure="qfs.qft#qfs.swt.instrument.setup">
+          <variable name="sutdir">$(WIND_WRWB_PATH)</variable>
+        </ProcedureCall>
+        <CatchSequence exception="TestException" id="_1vu+" maxerror="0"/>
+      </TryStep>
       <SUTClientStarter client="$(client)" executable="$(wdm_exec)" id="_3e">
         <parameter>-clean</parameter>
         <parameter>-configuration</parameter>
