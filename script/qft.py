@@ -97,6 +97,14 @@ def restart_wtxregd ():
                     stdout = subprocess.PIPE,
                     stderr = subprocess.PIPE)
 
+def dvd_number(install_path):
+    dvd_str = re.sub(".*_", "", install_path)
+    build_number = "dvdNo=" + dvd_str
+    file_dvdno = open('./docs/build_number/dvdNo', 'w')
+    file_dvdno.write(build_number)
+    file_dvdno.close()
+
+
 
 def start_sut (root_ws, report_dir):
     '''start sut'''
@@ -245,7 +253,7 @@ if __name__ == "__main__":
             help()
             sys.exit(1)
         elif opt  == "-i" or opt == "--installDir":
-            install_dir = os.path.normpath(sys.argv[1])
+            install_dir = os.path.realpath(sys.argv[1])
             del sys.argv[1]
         elif opt  == "--pd" or opt == "-pd":
             platform_dir = os.path.normpath(sys.argv[1])

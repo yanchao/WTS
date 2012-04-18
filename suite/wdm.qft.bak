@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE RootStep>
-<RootStep id="_0" name="root" version="3.4.5">
+<RootStep id="_0" name="root" version="3.4.6">
   <include>qfs.qft</include>
   <TestSet id="_1qM4" name="lx">
     <variable name="platformDir">$(platformDir)</variable>
@@ -11478,11 +11478,25 @@ breakpoint view
                   <variable name="str">"toto="</variable>
                 </ProcedureCall>
                 <IfSequence id="_1uUI" test="$(success)">
-                  <Test id="_1uUJ"
-                        name="&#34;Dynamic Printf Breakpoint -------------------------------------- PASSED&#34;"/>
+                  <ProcedureCall id="_1vv1"
+                                 procedure="qfs.run-log.logMessage">
+                    <variable name="message">Dynamic Printf ---- SUCCESSED!</variable>
+                    <variable name="dontcompactify">false</variable>
+                    <variable name="report">true</variable>
+                  </ProcedureCall>
+                  <ProcedureCall id="_1vv2"
+                                 procedure="qfs.run-log.screenshots.logScreenshot">
+                    <variable name="inSUT">false</variable>
+                    <variable name="title">DPrintf SUCCESSED!!</variable>
+                    <variable name="dontcompactify">false</variable>
+                    <variable name="report">true</variable>
+                  </ProcedureCall>
                   <ElseSequence id="_1uUK">
-                    <Test id="_1uUL"
-                          name="&#34;Dynamic Printf Breakpoint -------------------------------------- FAILED&#34;"/>
+                    <ProcedureCall id="_1vv3"
+                                   procedure="qfs.run-log.logError">
+                      <variable name="message">Dynamic Printf ------ FAILED</variable>
+                      <variable name="withScreenshots">true</variable>
+                    </ProcedureCall>
                   </ElseSequence>
                 </IfSequence>
                 <ProcedureCall id="_1uUH" procedure="terminalSave"/>
