@@ -77,7 +77,7 @@ QFTEST=qftest
 
 # where is qftest file ?
 if [ "x$wdmFile" == "x" ]; then
-    wdmFile="../suite/wdm.qft"
+    wdmFile="./suite/wdm.qft"
 fi
 
 ###################### main ######################
