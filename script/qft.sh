@@ -314,7 +314,7 @@ if [ "$batchmode_flag" = "true" ]; then
             -J-Duser.language=en \
             -runlog $rs/+b \
             -report $rp/report \
-            -test $test_suite -run $wdmFile &
+            -test $test_suite -run $wdmFile 
 
 else # interactive
     $QFTEST -variable WIND_WRWB_PATH=$WIND_WRWB_PATH \
