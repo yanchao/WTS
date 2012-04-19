@@ -294,6 +294,7 @@ if __name__ == "__main__":
 
     # constructor DVD object
     dvd = DVD(install_dir)
+    dvd_number(install_dir)
 
     if not platform_dir:
         print("Please specify platform_dir")
