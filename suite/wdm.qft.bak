@@ -15070,17 +15070,20 @@ rc.setLocal('vipName',vipName)
         <DependencyReference id="_1tfZ" reference="wb.vxWdbPipe"/>
         <SetupSequence id="_1tfa" name="wdbrpcLaunch">
           <TestStep id="_1tfb" name="vxWdbPipeLaunch">
-            <ProcedureCall id="_1tfj" procedure="conVxSelect">
+            <ProcedureCall id="_1tfj" postdelay="1000"
+                           procedure="conVxSelect">
               <variable name="vxName">$(conName)</variable>
             </ProcedureCall>
-            <ProcedureCall id="_1tfd" procedure="uiLaunchTask">
+            <ProcedureCall id="_1tfd" postdelay="10000"
+                           procedure="uiLaunchTask">
               <variable name="vxName">$(conName)</variable>
               <variable name="entry">mthread</variable>
               <variable name="arg">2</variable>
               <variable name="name">yzhang0 main</variable>
             </ProcedureCall>
             <ProcedureCall id="_1tgK" procedure="uiCheckModelDialog"/>
-            <ProcedureCall id="_1tg3" procedure="dbgVxKernelMthreadStop"
+            <ProcedureCall id="_1tg3" predelay="2000"
+                           procedure="dbgVxKernelMthreadStop"
                            retvarname="success">
               <variable name="vxName">$(conName)</variable>
             </ProcedureCall>

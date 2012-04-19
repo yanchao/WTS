@@ -5529,7 +5529,7 @@ rc.setLocal('midStackFile',midStackFile)
                              name="ignore"/>
             </TryStep>
           </TestStep>
-          <TestStep id="_1tUw" name="stepOver">
+          <TestStep disabled="true" id="_1tUw" name="stepOver">
             <TryStep id="_1tUx" name="stepOver">
               <ProcedureCall id="_1tUy" postdelay="1000"
                              procedure="qfs.swt.tree.selectNode">
@@ -5539,7 +5539,7 @@ rc.setLocal('midStackFile',midStackFile)
               </ProcedureCall>
               <ProcedureCall id="_1tUz" postdelay="3000"
                              procedure="dbgViewStepOver"/>
-              <ProcedureCall id="_1tU+" postdelay="2000"
+              <ProcedureCall id="_1tU+" postdelay="10000"
                              procedure="qfs.swt.tree.expandNode">
                 <variable name="id">Debug.tree&amp;/0/0/0</variable>
                 <variable name="node"/>
