@@ -1,6 +1,0 @@
--startup
-plugins/org.eclipse.equinox.launcher_1.2.0.wr.jar
---launcher.library
-plugins/org.eclipse.equinox.launcher.gtk.linux.x86_1.1.100.v20110505
--configuration
-../../../../../../../../../svc-wdm/wts/configuration/configuration

@@ -271,8 +271,8 @@ fi
 #-------------------------------------------------------------------------------
 #  write dvd number
 #-------------------------------------------------------------------------------
-
-echo $INSTALL_DIR | gawk -F"_" '{print $NF}' > ./docs/build_number/dvdNo
+echo -n "dvdNo=" > ./docs/build_number/dvdNo
+echo $INSTALL_DIR | gawk -F"_" '{print $NF}' >> ./docs/build_number/dvdNo
 
 #-------------------------------------------------------------------------------
 #  set up running environment
