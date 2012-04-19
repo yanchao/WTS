@@ -38,6 +38,9 @@ vnc_create () {
 vnc_kill () {
     vncserver -kill :$vnc_num
 }
+dvd_num() {
+	echo $INSTALL_DIR | gawk -F"_" '{print $NF}' > ./docs/build_number/dvdNo
+}
 ##################################################
 
 win_size="1600x1000"
@@ -97,7 +100,9 @@ while [ $# -gt 0 ] ; do
 	    ;;
 
 	-i | [-]*install_dir)
+
 	    INSTALL_DIR=$2
+        INSTALL_DIR=$(cd -P $INSTALL_DIR && pwd)
 	    shift 2
 	    ;;
 
@@ -264,6 +269,12 @@ if [ -d $cfg_file ]; then
 fi
 
 #-------------------------------------------------------------------------------
+#  write dvd number
+#-------------------------------------------------------------------------------
+
+echo $INSTALL_DIR | gawk -F"_" '{print $NF}' > ./docs/build_number/dvdNo
+
+#-------------------------------------------------------------------------------
 #  set up running environment
 #-------------------------------------------------------------------------------
 
@@ -315,7 +326,16 @@ if [ "$batchmode_flag" = "true" ]; then
             -runlog $rs/+b \
             -report $rp/report \
             -test $test_suite -run $wdmFile 
+        
+    ret=$?
 
+    if [[ "$ret" == "0" || "$ret" == "1" ]]; then
+        echo "SUCCESS"
+        exit 0
+    else
+        echo "FAILED"
+        exit $ret
+    fi
 else # interactive
     $QFTEST -variable WIND_WRWB_PATH=$WIND_WRWB_PATH \
             -variable WIND_HOME=$WIND_HOME \
