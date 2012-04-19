@@ -77,7 +77,7 @@ QFTEST=qftest
 
 # where is qftest file ?
 if [ "x$wdmFile" == "x" ]; then
-    wdmFile="/folk/svc-wdm/wts/suite/wdm.qft"
+    wdmFile="../suite/wdm.qft"
 fi
 
 ###################### main ######################
@@ -327,15 +327,6 @@ if [ "$batchmode_flag" = "true" ]; then
             -report $rp/report \
             -test $test_suite -run $wdmFile 
         
-    ret=$?
-
-    if [[ "$ret" == "0" || "$ret" == "1" ]]; then
-        echo "SUCCESS"
-        exit 0
-    else
-        echo "FAILED"
-        exit $ret
-    fi
 else # interactive
     $QFTEST -variable WIND_WRWB_PATH=$WIND_WRWB_PATH \
             -variable WIND_HOME=$WIND_HOME \
@@ -355,5 +346,15 @@ else # interactive
             -variable wdmWorkspace=$wdm_workspace \
             -variable wbWorkspace=$wb_workspace \
             -variable platformDir=$platform_dir & 
+fi
+
+ret=$?
+
+if [[ "$ret" == "0" || "$ret" == "1" ]]; then
+    echo "SUCCESS"
+    exit 0
+else
+    echo "FAILED"
+    exit $ret
 fi
 

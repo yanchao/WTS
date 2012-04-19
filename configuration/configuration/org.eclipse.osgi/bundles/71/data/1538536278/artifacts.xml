@@ -1,0 +1,2279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1334799077198'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='216'>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.tm.te.feature' version='1.0.0.201110051049'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.tm.te.feature_1.0.0.201110051049/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.tm.te.feature_1.0.0.201110051049'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.xsd.mapping.editor' version='2.7.0.v20120130-0943'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.xsd.mapping.editor_2.7.0.v20120130-0943/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.xsd.mapping.editor_2.7.0.v20120130-0943'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.core' version='8.0.2.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='1181315'/>
+        <property name='download.size' value='1181315'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.managedbuilder.core_8.0.2.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.managedbuilder.core_8.0.2.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.terminal.view' version='2.2.0.v201103142315'>
+      <properties size='2'>
+        <property name='artifact.size' value='95192'/>
+        <property name='download.size' value='95192'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.terminal.view_2.2.0.v201103142315.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.terminal.view_2.2.0.v201103142315.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.mapping.ui' version='2.6.0.v20120130-0943'>
+      <properties size='2'>
+        <property name='artifact.size' value='147135'/>
+        <property name='download.size' value='147135'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.mapping.ui_2.6.0.v20120130-0943.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.mapping.ui_2.6.0.v20120130-0943.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.mi.ui' version='6.1.1.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='150594'/>
+        <property name='download.size' value='150594'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.debug.mi.ui_6.1.1.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.debug.mi.ui_6.1.1.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.te.runtime.statushandler' version='1.0.0.201110051049'>
+      <properties size='2'>
+        <property name='artifact.size' value='13563'/>
+        <property name='download.size' value='13563'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.runtime.statushandler_1.0.0.201110051049.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.runtime.statushandler_1.0.0.201110051049.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.shells.ssh' version='2.1.300.v201101042155'>
+      <properties size='2'>
+        <property name='artifact.size' value='15738'/>
+        <property name='download.size' value='15738'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.shells.ssh_2.1.300.v201101042155.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.shells.ssh_2.1.300.v201101042155.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.xml.serializer' version='2.7.1.v201005080400'>
+      <properties size='2'>
+        <property name='artifact.size' value='293194'/>
+        <property name='download.size' value='293194'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.apache.xml.serializer_2.7.1.v201005080400.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.apache.xml.serializer_2.7.1.v201005080400.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.ui' version='2.0.1.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='111521'/>
+        <property name='download.size' value='111521'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.codan.ui_2.0.1.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.codan.ui_2.0.1.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.processes.ui' version='3.0.300.v201101042155'>
+      <properties size='2'>
+        <property name='artifact.size' value='72088'/>
+        <property name='download.size' value='72088'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.processes.ui_3.0.300.v201101042155.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.processes.ui_3.0.300.v201101042155.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.emf.edit' version='2.7.2.v20120130-0943'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.emf.edit_2.7.2.v20120130-0943/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.emf.edit_2.7.2.v20120130-0943'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.snippets' version='1.2.100.v201103281740'>
+      <properties size='2'>
+        <property name='artifact.size' value='271642'/>
+        <property name='download.size' value='271642'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.snippets_1.2.100.v201103281740.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.snippets_1.2.100.v201103281740.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.xsd.edit' version='2.7.0.v20120130-0943'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.xsd.edit_2.7.0.v20120130-0943/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.xsd.edit_2.7.0.v20120130-0943'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.emf' version='1.2.100.v201101101900'>
+      <properties size='2'>
+        <property name='artifact.size' value='213584'/>
+        <property name='download.size' value='213584'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.emf_1.2.100.v201101101900.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.emf_1.2.100.v201101101900.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.modulecore.ui' version='1.0.102.v201201262000'>
+      <properties size='2'>
+        <property name='artifact.size' value='134277'/>
+        <property name='download.size' value='134277'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.modulecore.ui_1.0.102.v201201262000.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.modulecore.ui_1.0.102.v201201262000.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.te.runtime.concurrent' version='1.0.0.201110051049'>
+      <properties size='2'>
+        <property name='artifact.size' value='22237'/>
+        <property name='download.size' value='22237'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.runtime.concurrent_1.0.0.201110051049.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.runtime.concurrent_1.0.0.201110051049.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rse.ssh' version='3.0.301.R33x_v201109141647-7A3F9xAGGB5k0C7KEATN92641'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.rse.ssh_3.0.301.R33x_v201109141647-7A3F9xAGGB5k0C7KEATN92641/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.rse.ssh_3.0.301.R33x_v201109141647-7A3F9xAGGB5k0C7KEATN92641'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rse.core' version='3.3.2.R33x_v201110030150-7a7JFZ4F8Fz0vz03_qRujci-z-Mp'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.rse.core_3.3.2.R33x_v201110030150-7a7JFZ4F8Fz0vz03_qRujci-z-Mp/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.rse.core_3.3.2.R33x_v201110030150-7a7JFZ4F8Fz0vz03_qRujci-z-Mp'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.emf.common' version='2.7.0.v20120127-1122'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.emf.common_2.7.0.v20120127-1122/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.emf.common_2.7.0.v20120127-1122'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.xml.resolver' version='1.2.0.v201005080400'>
+      <properties size='2'>
+        <property name='artifact.size' value='96354'/>
+        <property name='download.size' value='96354'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.apache.xml.resolver_1.2.0.v201005080400.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.apache.xml.resolver_1.2.0.v201005080400.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.xsd.mapping.editor' version='2.6.0.v20120130-0943'>
+      <properties size='2'>
+        <property name='artifact.size' value='10173'/>
+        <property name='download.size' value='10173'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.xsd.mapping.editor_2.6.0.v20120130-0943.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.xsd.mapping.editor_2.6.0.v20120130-0943.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.sse.ui.infopop' version='1.0.300.v201004150328'>
+      <properties size='2'>
+        <property name='artifact.size' value='9051'/>
+        <property name='download.size' value='9051'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.sse.ui.infopop_1.0.300.v201004150328.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.sse.ui.infopop_1.0.300.v201004150328.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rse.terminals' version='1.1.1.R33x_v201109141647-771Bh9uD7HbBF3u7DNO3293A3752'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.rse.terminals_1.1.1.R33x_v201109141647-771Bh9uD7HbBF3u7DNO3293A3752/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.rse.terminals_1.1.1.R33x_v201109141647-771Bh9uD7HbBF3u7DNO3293A3752'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.pde.runtime' version='3.4.201.v20110928-1516'>
+      <properties size='2'>
+        <property name='artifact.size' value='159595'/>
+        <property name='download.size' value='159595'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.pde.runtime_3.4.201.v20110928-1516.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.pde.runtime_3.4.201.v20110928-1516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.checkers.ui' version='1.0.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='30010'/>
+        <property name='download.size' value='30010'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.codan.checkers.ui_1.0.0.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.codan.checkers.ui_1.0.0.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.frameworks.ui' version='1.2.100.v201105122000'>
+      <properties size='2'>
+        <property name='artifact.size' value='147725'/>
+        <property name='download.size' value='147725'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.frameworks.ui_1.2.100.v201105122000.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.frameworks.ui_1.2.100.v201105122000.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='gnu.io.rxtx.linux.x86' version='2.1.7.3_v20071015'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/gnu.io.rxtx.linux.x86_2.1.7.3_v20071015/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/gnu.io.rxtx.linux.x86_2.1.7.3_v20071015'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.draw2d' version='3.7.2.v20111017-2020'>
+      <properties size='2'>
+        <property name='artifact.size' value='561537'/>
+        <property name='download.size' value='561537'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.draw2d_3.7.2.v20111017-2020.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.draw2d_3.7.2.v20111017-2020.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.p2' version='1.0.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='23509'/>
+        <property name='download.size' value='23509'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.p2_1.0.0.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.p2_1.0.0.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.windriver.ide.dependencies.tools' version='3.3.2.2'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/com.windriver.ide.dependencies.tools_3.3.2.2/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/com.windriver.ide.dependencies.tools_3.3.2.2'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.cvs.ssh2' version='3.2.300.I20110511-0800'>
+      <properties size='2'>
+        <property name='artifact.size' value='27118'/>
+        <property name='download.size' value='27118'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.team.cvs.ssh2_3.2.300.I20110511-0800.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.team.cvs.ssh2_3.2.300.I20110511-0800.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.doc.user' version='5.1.1.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.doc.user_5.1.1.201202111925/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.doc.user_5.1.1.201202111925'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.terminal.ssh' version='2.1.0.v201101042155'>
+      <properties size='2'>
+        <property name='artifact.size' value='39178'/>
+        <property name='download.size' value='39178'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.terminal.ssh_2.1.0.v201101042155.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.terminal.ssh_2.1.0.v201101042155.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.services.files.ftp' version='3.0.300.v201101042155'>
+      <properties size='2'>
+        <property name='artifact.size' value='39841'/>
+        <property name='download.size' value='39841'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.services.files.ftp_3.0.300.v201101042155.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.services.files.ftp_3.0.300.v201101042155.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.ui' version='1.1.500.v200911190730'>
+      <properties size='2'>
+        <property name='artifact.size' value='141358'/>
+        <property name='download.size' value='141358'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.ui_1.1.500.v200911190730.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.ui_1.1.500.v200911190730.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.te.ui.forms' version='1.0.0.201110051049'>
+      <properties size='2'>
+        <property name='artifact.size' value='32031'/>
+        <property name='download.size' value='32031'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.ui.forms_1.0.0.201110051049.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.ui.forms_1.0.0.201110051049.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.tm.terminal.ssh' version='2.1.0.v201103142315-30-7w312212153266'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.tm.terminal.ssh_2.1.0.v201103142315-30-7w312212153266/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.tm.terminal.ssh_2.1.0.v201103142315-30-7w312212153266'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.emf.mapping.ui' version='2.7.0.v20120130-0943'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.emf.mapping.ui_2.7.0.v20120130-0943/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.emf.mapping.ui_2.7.0.v20120130-0943'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.validation.ui' version='1.2.300.v201201050300'>
+      <properties size='2'>
+        <property name='artifact.size' value='146203'/>
+        <property name='download.size' value='146203'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.validation.ui_1.2.300.v201201050300.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.validation.ui_1.2.300.v201201050300.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.files.local' version='2.1.200.v201101042155'>
+      <properties size='2'>
+        <property name='artifact.size' value='23535'/>
+        <property name='download.size' value='23535'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.files.local_2.1.200.v201101042155.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.files.local_2.1.200.v201101042155.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.cvs.ui' version='3.3.401.v20120126-1227'>
+      <properties size='2'>
+        <property name='artifact.size' value='1674256'/>
+        <property name='download.size' value='1674256'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.team.cvs.ui_3.3.401.v20120126-1227.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.team.cvs.ui_3.3.401.v20120126-1227.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xmleditor.doc.user' version='1.0.700.v201005192212'>
+      <properties size='2'>
+        <property name='artifact.size' value='129724'/>
+        <property name='download.size' value='129724'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.xmleditor.doc.user_1.0.700.v201005192212.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.xmleditor.doc.user_1.0.700.v201005192212.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.p2.source' version='1.0.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='13373'/>
+        <property name='download.size' value='13373'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.p2.source_1.0.0.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.p2.source_1.0.0.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.connectorservice.ssh' version='2.1.200.v201101042155'>
+      <properties size='2'>
+        <property name='artifact.size' value='37865'/>
+        <property name='download.size' value='37865'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.connectorservice.ssh_2.1.200.v201101042155.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.connectorservice.ssh_2.1.200.v201101042155.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.project.facet.core' version='1.4.201.v201201101553'>
+      <properties size='2'>
+        <property name='artifact.size' value='360172'/>
+        <property name='download.size' value='360172'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.project.facet.core_1.4.201.v201201101553.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.project.facet.core_1.4.201.v201201101553.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.terminals.ui' version='1.1.0.v201101042155'>
+      <properties size='2'>
+        <property name='artifact.size' value='59948'/>
+        <property name='download.size' value='59948'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.terminals.ui_1.1.0.v201101042155.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.terminals.ui_1.1.0.v201101042155.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.emf.common.ui' version='2.7.0.v20120130-0943'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.emf.common.ui_2.7.0.v20120130-0943/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.emf.common.ui_2.7.0.v20120130-0943'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.tcf.debug.ui' version='0.5.0.201110031156'>
+      <properties size='2'>
+        <property name='artifact.size' value='658620'/>
+        <property name='download.size' value='658620'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.tcf.debug.ui_0.5.0.201110031156.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.tcf.debug.ui_0.5.0.201110031156.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gdb' version='7.0.0.201202111925'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.cdt.gdb_7.0.0.201202111925/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.cdt.gdb_7.0.0.201202111925'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.te.runtime.model' version='1.0.0.201110051049'>
+      <properties size='2'>
+        <property name='artifact.size' value='12806'/>
+        <property name='download.size' value='12806'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.runtime.model_1.0.0.201110051049.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.runtime.model_1.0.0.201110051049.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.traditional' version='1.2.1.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='138912'/>
+        <property name='download.size' value='138912'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.debug.ui.memory.traditional_1.2.1.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.debug.ui.memory.traditional_1.2.1.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.te.runtime.persistence' version='1.0.0.201110051049'>
+      <properties size='2'>
+        <property name='artifact.size' value='9961'/>
+        <property name='download.size' value='9961'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.runtime.persistence_1.0.0.201110051049.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.runtime.persistence_1.0.0.201110051049.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.te.core' version='1.0.0.201110051049'>
+      <properties size='2'>
+        <property name='artifact.size' value='3336'/>
+        <property name='download.size' value='3336'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.core_1.0.0.201110051049.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.core_1.0.0.201110051049.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rse.local' version='2.1.300.v201103142315-7B4FKsBgJ9EE9ICQIFYT'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.rse.local_2.1.300.v201103142315-7B4FKsBgJ9EE9ICQIFYT/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.rse.local_2.1.300.v201103142315-7B4FKsBgJ9EE9ICQIFYT'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.gdb' version='7.0.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='15876'/>
+        <property name='download.size' value='15876'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.gdb_7.0.0.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.gdb_7.0.0.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.efs.ui' version='2.1.300.v201101042155'>
+      <properties size='2'>
+        <property name='artifact.size' value='19171'/>
+        <property name='download.size' value='19171'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.efs.ui_2.1.300.v201101042155.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.efs.ui_2.1.300.v201101042155.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt' version='8.0.2.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='79101'/>
+        <property name='download.size' value='79101'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt_8.0.2.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt_8.0.2.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.launch.remote' version='2.3.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='79247'/>
+        <property name='download.size' value='79247'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.launch.remote_2.3.0.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.launch.remote_2.3.0.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.terminal.serial' version='2.1.0.v201101042155'>
+      <properties size='2'>
+        <property name='artifact.size' value='35382'/>
+        <property name='download.size' value='35382'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.terminal.serial_2.1.0.v201101042155.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.terminal.serial_2.1.0.v201101042155.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.shells.core' version='3.1.201.R33x_v201106281309'>
+      <properties size='2'>
+        <property name='artifact.size' value='65973'/>
+        <property name='download.size' value='65973'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.shells.core_3.1.201.R33x_v201106281309.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.shells.core_3.1.201.R33x_v201106281309.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wst.common_ui.feature' version='3.3.2.v201111030500-7C79FVsEdhO_sfog9oNekiJkS7Nz00OK'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.wst.common_ui.feature_3.3.2.v201111030500-7C79FVsEdhO_sfog9oNekiJkS7Nz00OK/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.wst.common_ui.feature_3.3.2.v201111030500-7C79FVsEdhO_sfog9oNekiJkS7Nz00OK'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.mi.core' version='7.1.1.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='540875'/>
+        <property name='download.size' value='540875'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.debug.mi.core_7.1.1.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.debug.mi.core_7.1.1.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.files.ftp' version='2.1.301.R33x_v201107212114'>
+      <properties size='2'>
+        <property name='artifact.size' value='31968'/>
+        <property name='download.size' value='31968'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.files.ftp_2.1.301.R33x_v201107212114.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.files.ftp_2.1.301.R33x_v201107212114.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.sse.core' version='1.1.602.v201112071516'>
+      <properties size='2'>
+        <property name='artifact.size' value='439215'/>
+        <property name='download.size' value='439215'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.sse.core_1.1.602.v201112071516.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.sse.core_1.1.602.v201112071516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.validation.infopop' version='1.0.300.v200806041506'>
+      <properties size='2'>
+        <property name='artifact.size' value='9336'/>
+        <property name='download.size' value='9336'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.validation.infopop_1.0.300.v200806041506.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.validation.infopop_1.0.300.v200806041506.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.xsd.mapping' version='2.6.0.v20120130-0943'>
+      <properties size='2'>
+        <property name='artifact.size' value='10155'/>
+        <property name='download.size' value='10155'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.xsd.mapping_2.6.0.v20120130-0943.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.xsd.mapping_2.6.0.v20120130-0943.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.files.ui' version='3.2.1.R33x_v201109141647'>
+      <properties size='2'>
+        <property name='artifact.size' value='486199'/>
+        <property name='download.size' value='486199'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.files.ui_3.2.1.R33x_v201109141647.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.files.ui_3.2.1.R33x_v201109141647.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.gdb.ui' version='7.0.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='9833'/>
+        <property name='download.size' value='9833'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.gdb.ui_7.0.0.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.gdb.ui_7.0.0.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.xerces' version='2.9.0.v201101211617'>
+      <properties size='2'>
+        <property name='artifact.size' value='1303463'/>
+        <property name='download.size' value='1303463'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.apache.xerces_2.9.0.v201101211617.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.apache.xerces_2.9.0.v201101211617.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.make.core' version='7.1.2.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='418921'/>
+        <property name='download.size' value='418921'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.make.core_7.1.2.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.make.core_7.1.2.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.processes.local' version='2.1.300.v201101042155'>
+      <properties size='2'>
+        <property name='artifact.size' value='15235'/>
+        <property name='download.size' value='15235'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.processes.local_2.1.300.v201101042155.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.processes.local_2.1.300.v201101042155.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore.edit' version='2.7.1.v20120130-0943'>
+      <properties size='2'>
+        <property name='artifact.size' value='125430'/>
+        <property name='download.size' value='125430'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.ecore.edit_2.7.1.v20120130-0943.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.ecore.edit_2.7.1.v20120130-0943.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gnu.debug' version='7.1.1.201202111925'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.cdt.gnu.debug_7.1.1.201202111925/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.cdt.gnu.debug_7.1.1.201202111925'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf' version='2.2.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='306687'/>
+        <property name='download.size' value='306687'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.dsf_2.2.0.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.dsf_2.2.0.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.checkers' version='1.0.1.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='77190'/>
+        <property name='download.size' value='77190'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.codan.checkers_1.0.1.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.codan.checkers_1.0.1.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.launch' version='7.0.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='224601'/>
+        <property name='download.size' value='224601'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.launch_7.0.0.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.launch_7.0.0.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.common' version='2.7.0.v20120127-1122'>
+      <properties size='2'>
+        <property name='artifact.size' value='213371'/>
+        <property name='download.size' value='213371'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.common_2.7.0.v20120127-1122.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.common_2.7.0.v20120127-1122.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.tm.tcf.rse.feature' version='0.5.0.201110031156'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.tm.tcf.rse.feature_0.5.0.201110031156/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.tm.tcf.rse.feature_0.5.0.201110031156'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.ui' version='2.2.1.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='1285910'/>
+        <property name='download.size' value='1285910'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.dsf.ui_2.2.1.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.dsf.ui_2.2.1.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.edit' version='2.7.2.v20120130-0943'>
+      <properties size='2'>
+        <property name='artifact.size' value='263397'/>
+        <property name='download.size' value='263397'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.edit_2.7.2.v20120130-0943.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.edit_2.7.2.v20120130-0943.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xml.core' version='1.1.602.v201201091944'>
+      <properties size='2'>
+        <property name='artifact.size' value='736399'/>
+        <property name='download.size' value='736399'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.xml.core_1.1.602.v201201091944.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.xml.core_1.1.602.v201201091944.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.tcf.debug' version='0.5.0.201110031156'>
+      <properties size='2'>
+        <property name='artifact.size' value='674195'/>
+        <property name='download.size' value='674195'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.tcf.debug_0.5.0.201110031156.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.tcf.debug_0.5.0.201110031156.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.services.ssh' version='3.1.1.R33x_v201107181530'>
+      <properties size='2'>
+        <property name='artifact.size' value='59125'/>
+        <property name='download.size' value='59125'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.services.ssh_3.1.1.R33x_v201107181530.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.services.ssh_3.1.1.R33x_v201107181530.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.net' version='2.2.0.v201101241833'>
+      <properties size='2'>
+        <property name='artifact.size' value='228313'/>
+        <property name='download.size' value='228313'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.apache.commons.net_2.2.0.v201101241833.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.apache.commons.net_2.2.0.v201101241833.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.core' version='7.1.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='515778'/>
+        <property name='download.size' value='515778'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.debug.core_7.1.0.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.debug.core_7.1.0.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.infopop' version='1.0.300.v201004280700'>
+      <properties size='2'>
+        <property name='artifact.size' value='7764'/>
+        <property name='download.size' value='7764'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.infopop_1.0.300.v201004280700.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.infopop_1.0.300.v201004280700.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.win32.x86' version='5.2.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.core.win32.x86_5.2.0.201202111925/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.core.win32.x86_5.2.0.201202111925'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.te.tcf.filesystem' version='1.0.0.201110051049'>
+      <properties size='2'>
+        <property name='artifact.size' value='168490'/>
+        <property name='download.size' value='168490'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.tcf.filesystem_1.0.0.201110051049.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.tcf.filesystem_1.0.0.201110051049.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.uriresolver' version='1.1.401.v201004280700'>
+      <properties size='2'>
+        <property name='artifact.size' value='39667'/>
+        <property name='download.size' value='39667'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.uriresolver_1.1.401.v201004280700.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.uriresolver_1.1.401.v201004280700.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.core.cxx' version='1.0.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='43988'/>
+        <property name='download.size' value='43988'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.codan.core.cxx_1.0.0.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.codan.core.cxx_1.0.0.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.win32' version='5.2.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='11465'/>
+        <property name='download.size' value='11465'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.core.win32_5.2.0.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.core.win32_5.2.0.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.terminals.core' version='1.0.200.v201101042155'>
+      <properties size='2'>
+        <property name='artifact.size' value='22227'/>
+        <property name='download.size' value='22227'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.terminals.core_1.0.200.v201101042155.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.terminals.core_1.0.200.v201101042155.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xsd.ui' version='1.2.404.v201105050216'>
+      <properties size='2'>
+        <property name='artifact.size' value='1286590'/>
+        <property name='download.size' value='1286590'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.xsd.ui_1.2.404.v201105050216.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.xsd.ui_1.2.404.v201105050216.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.mapping.xsd2ecore.editor' version='2.6.0.v20120130-0943'>
+      <properties size='2'>
+        <property name='artifact.size' value='20964'/>
+        <property name='download.size' value='20964'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.mapping.xsd2ecore.editor_2.6.0.v20120130-0943.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.mapping.xsd2ecore.editor_2.6.0.v20120130-0943.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xml.ui.infopop' version='1.0.400.v201004292007'>
+      <properties size='2'>
+        <property name='artifact.size' value='16351'/>
+        <property name='download.size' value='16351'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.xml.ui.infopop_1.0.400.v201004292007.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.xml.ui.infopop_1.0.400.v201004292007.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wst.common_core.feature' version='3.3.2.v201111030500-7B7DFO9F7RZHOhIjR6Mz-NJ'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.wst.common_core.feature_3.3.2.v201111030500-7B7DFO9F7RZHOhIjR6Mz-NJ/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.wst.common_core.feature_3.3.2.v201111030500-7B7DFO9F7RZHOhIjR6Mz-NJ'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.tm.terminal.telnet' version='2.1.0.v201103142315-30-7w312213121A22'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.tm.terminal.telnet_2.1.0.v201103142315-30-7w312213121A22/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.tm.terminal.telnet_2.1.0.v201103142315-30-7w312213121A22'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='gnu.io.rxtx.win32.x86' version='2.1.7.3_v20071015'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/gnu.io.rxtx.win32.x86_2.1.7.3_v20071015/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/gnu.io.rxtx.win32.x86_2.1.7.3_v20071015'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.emf.mapping' version='2.7.0.v20120130-0943'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.emf.mapping_2.7.0.v20120130-0943/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.emf.mapping_2.7.0.v20120130-0943'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.mapping.xsd2ecore' version='2.5.0.v20120130-0943'>
+      <properties size='2'>
+        <property name='artifact.size' value='29961'/>
+        <property name='download.size' value='29961'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.mapping.xsd2ecore_2.5.0.v20120130-0943.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.mapping.xsd2ecore_2.5.0.v20120130-0943.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.te.ui.swt' version='1.0.0.201110051049'>
+      <properties size='2'>
+        <property name='artifact.size' value='26954'/>
+        <property name='download.size' value='26954'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.ui.swt_1.0.0.201110051049.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.ui.swt_1.0.0.201110051049.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cvs' version='1.1.100.v201202080800'>
+      <properties size='2'>
+        <property name='artifact.size' value='14169'/>
+        <property name='download.size' value='14169'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cvs_1.1.100.v201202080800.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cvs_1.1.100.v201202080800.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.te.tcf.ui' version='1.0.0.201110051049'>
+      <properties size='2'>
+        <property name='artifact.size' value='59878'/>
+        <property name='download.size' value='59878'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.tcf.ui_1.0.0.201110051049.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.tcf.ui_1.0.0.201110051049.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.te.ui' version='1.0.0.201110051049'>
+      <properties size='2'>
+        <property name='artifact.size' value='58131'/>
+        <property name='download.size' value='58131'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.ui_1.0.0.201110051049.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.ui_1.0.0.201110051049.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.emfworkbench.integration' version='1.2.101.v201107140600'>
+      <properties size='2'>
+        <property name='artifact.size' value='140292'/>
+        <property name='download.size' value='140292'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.emfworkbench.integration_1.2.101.v201107140600.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.emfworkbench.integration_1.2.101.v201107140600.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.validation' version='1.2.303.v201202090300'>
+      <properties size='2'>
+        <property name='artifact.size' value='408360'/>
+        <property name='download.size' value='408360'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.validation_1.2.303.v201202090300.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.validation_1.2.303.v201202090300.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.linux.x86' version='5.2.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='17518'/>
+        <property name='download.size' value='17518'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.core.linux.x86_5.2.0.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.core.linux.x86_5.2.0.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.draw2d' version='3.7.2.v20110927-2020-4617w3122212803131'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.draw2d_3.7.2.v20110927-2020-4617w3122212803131/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.draw2d_3.7.2.v20110927-2020-4617w3122212803131'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='biz.junginger.rss.eclipse.RssPlugin.source' version='1.5.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='90067'/>
+        <property name='download.size' value='90067'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/biz.junginger.rss.eclipse.RssPlugin.source_1.5.0.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/biz.junginger.rss.eclipse.RssPlugin.source_1.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.terminals.ssh' version='1.0.100.v201101042155'>
+      <properties size='2'>
+        <property name='artifact.size' value='11168'/>
+        <property name='download.size' value='11168'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.terminals.ssh_1.0.100.v201101042155.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.terminals.ssh_1.0.100.v201101042155.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.ui' version='8.0.2.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='427371'/>
+        <property name='download.size' value='427371'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.managedbuilder.ui_8.0.2.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.managedbuilder.ui_8.0.2.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.internet.cache' version='1.0.400.v201004280700'>
+      <properties size='2'>
+        <property name='artifact.size' value='42839'/>
+        <property name='download.size' value='42839'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.internet.cache_1.0.400.v201004280700.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.internet.cache_1.0.400.v201004280700.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cvs' version='1.3.100.v20110520-0800-7B78FHl9VF7BD7KBM4GP9C'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.cvs_1.3.100.v20110520-0800-7B78FHl9VF7BD7KBM4GP9C/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.cvs_1.3.100.v20110520-0800-7B78FHl9VF7BD7KBM4GP9C'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.make.ui' version='7.1.2.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='461247'/>
+        <property name='download.size' value='461247'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.make.ui_7.1.2.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.make.ui_7.1.2.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.gef' version='3.7.2.v20111106-2020'>
+      <properties size='2'>
+        <property name='artifact.size' value='838965'/>
+        <property name='download.size' value='838965'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.gef_3.7.2.v20111106-2020.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.gef_3.7.2.v20111106-2020.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.connectorservice.local' version='2.1.300.v201101042155'>
+      <properties size='2'>
+        <property name='artifact.size' value='12887'/>
+        <property name='download.size' value='12887'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.connectorservice.local_2.1.300.v201101042155.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.connectorservice.local_2.1.300.v201101042155.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.standard.schemas' version='1.0.401.v201108151912'>
+      <properties size='2'>
+        <property name='artifact.size' value='158602'/>
+        <property name='download.size' value='158602'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.standard.schemas_1.0.401.v201108151912.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.standard.schemas_1.0.401.v201108151912.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.windriver.pde' version='3.7.2'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/com.windriver.pde_3.7.2/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/com.windriver.pde_3.7.2'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.tm.terminal.serial' version='2.1.0.v201103142315-30-7w312212153266'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.tm.terminal.serial_2.1.0.v201103142315-30-7w312212153266/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.tm.terminal.serial_2.1.0.v201103142315-30-7w312212153266'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.frameworks' version='1.2.102.v201201190400'>
+      <properties size='2'>
+        <property name='artifact.size' value='114398'/>
+        <property name='download.size' value='114398'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.frameworks_1.2.102.v201201190400.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.frameworks_1.2.102.v201201190400.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.mapping' version='2.7.0.v20120130-0943'>
+      <properties size='2'>
+        <property name='artifact.size' value='188720'/>
+        <property name='download.size' value='188720'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.mapping_2.7.0.v20120130-0943.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.mapping_2.7.0.v20120130-0943.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.core' version='1.2.0.v200908252030'>
+      <properties size='2'>
+        <property name='artifact.size' value='53377'/>
+        <property name='download.size' value='53377'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.core_1.2.0.v200908252030.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.core_1.2.0.v200908252030.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore.change' version='2.7.1.v20120127-1122'>
+      <properties size='2'>
+        <property name='artifact.size' value='82009'/>
+        <property name='download.size' value='82009'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.ecore.change_2.7.1.v20120127-1122.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.ecore.change_2.7.1.v20120127-1122.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.xsd' version='2.7.1.v20120130-0943'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.xsd_2.7.1.v20120130-0943/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.xsd_2.7.1.v20120130-0943'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.tcf' version='0.5.0.201110031156'>
+      <properties size='2'>
+        <property name='artifact.size' value='25527'/>
+        <property name='download.size' value='25527'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.tcf_0.5.0.201110031156.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.tcf_0.5.0.201110031156.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.tm.terminal' version='3.1.1.R33x_v201106281309-4007S44yaw312218292641'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.tm.terminal_3.1.1.R33x_v201106281309-4007S44yaw312218292641/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.tm.terminal_3.1.1.R33x_v201106281309-4007S44yaw312218292641'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.xsd' version='2.7.1.v20120130-0943'>
+      <properties size='2'>
+        <property name='artifact.size' value='993619'/>
+        <property name='download.size' value='993619'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.xsd_2.7.1.v20120130-0943.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.xsd_2.7.1.v20120130-0943.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.services.local' version='2.1.300.v201105311250'>
+      <properties size='2'>
+        <property name='artifact.size' value='57308'/>
+        <property name='download.size' value='57308'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.services.local_2.1.300.v201105311250.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.services.local_2.1.300.v201105311250.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.jem.util' version='2.1.100.v201103021400'>
+      <properties size='2'>
+        <property name='artifact.size' value='109936'/>
+        <property name='download.size' value='109936'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.jem.util_2.1.100.v201103021400.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.jem.util_2.1.100.v201103021400.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xml.ui' version='1.1.202.v201112071516'>
+      <properties size='2'>
+        <property name='artifact.size' value='967887'/>
+        <property name='download.size' value='967887'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.xml.ui_1.1.202.v201112071516.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.xml.ui_1.1.202.v201112071516.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.shells.local' version='2.1.300.v201101042155'>
+      <properties size='2'>
+        <property name='artifact.size' value='15851'/>
+        <property name='download.size' value='15851'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.shells.local_2.1.300.v201101042155.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.shells.local_2.1.300.v201101042155.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.project.facet.ui' version='1.4.201.v201201101553'>
+      <properties size='2'>
+        <property name='artifact.size' value='282635'/>
+        <property name='download.size' value='282635'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.project.facet.ui_1.4.201.v201201101553.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.project.facet.ui_1.4.201.v201201101553.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.processes.core' version='3.1.200.v201101042155'>
+      <properties size='2'>
+        <property name='artifact.size' value='27737'/>
+        <property name='download.size' value='27737'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.processes.core_3.1.200.v201101042155.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.processes.core_3.1.200.v201101042155.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.te.tcf.locator' version='1.0.0.201110051049'>
+      <properties size='2'>
+        <property name='artifact.size' value='55598'/>
+        <property name='download.size' value='55598'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.tcf.locator_1.0.0.201110051049.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.tcf.locator_1.0.0.201110051049.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core' version='5.3.2.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='4533475'/>
+        <property name='download.size' value='4533475'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.core_5.3.2.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.core_5.3.2.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.search' version='1.2.1.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='60957'/>
+        <property name='download.size' value='60957'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.debug.ui.memory.search_1.2.1.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.debug.ui.memory.search_1.2.1.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.gdb.ui' version='2.2.1.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='486945'/>
+        <property name='download.size' value='486945'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.dsf.gdb.ui_2.2.1.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.dsf.gdb.ui_2.2.1.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rse.core.patch' version='3.3.1.201110061347'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.rse.core.patch_3.3.1.201110061347/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.rse.core.patch_3.3.1.201110061347'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.linux' version='5.2.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='11666'/>
+        <property name='download.size' value='11666'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.core.linux_5.2.0.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.core.linux_5.2.0.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.rse.ftp' version='3.0.301.R33x_v201109141647-782F8O9KC92gz097E9EKF23225'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.rse.ftp_3.0.301.R33x_v201109141647-782F8O9KC92gz097E9EKF23225/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.rse.ftp_3.0.301.R33x_v201109141647-782F8O9KC92gz097E9EKF23225'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.team.cvs.core' version='3.3.400.I20110510-0800'>
+      <properties size='2'>
+        <property name='artifact.size' value='582370'/>
+        <property name='download.size' value='582370'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.team.cvs.core_3.3.400.I20110510-0800.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.team.cvs.core_3.3.400.I20110510-0800.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.xsd.mapping' version='2.7.0.v20120130-0943'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.xsd.mapping_2.7.0.v20120130-0943/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.xsd.mapping_2.7.0.v20120130-0943'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.shells.ui' version='3.0.301.R33x_v201107181530'>
+      <properties size='2'>
+        <property name='artifact.size' value='139817'/>
+        <property name='download.size' value='139817'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.shells.ui_3.0.301.R33x_v201107181530.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.shells.ui_3.0.301.R33x_v201107181530.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.processes.shell.linux' version='1.1.300.v201101042155'>
+      <properties size='2'>
+        <property name='artifact.size' value='29913'/>
+        <property name='download.size' value='29913'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.processes.shell.linux_1.1.300.v201101042155.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.processes.shell.linux_1.1.300.v201101042155.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.ui.cxx' version='2.0.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='21410'/>
+        <property name='download.size' value='21410'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.codan.ui.cxx_2.0.0.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.codan.ui.cxx_2.0.0.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='gnu.io.rxtx' version='2.1.7.4_v20071024-7B57e7UAXMAAqGAHd'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/gnu.io.rxtx_2.1.7.4_v20071024-7B57e7UAXMAAqGAHd/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/gnu.io.rxtx_2.1.7.4_v20071024-7B57e7UAXMAAqGAHd'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='gnu.io.rxtx.linux.x86_64' version='2.1.7.3_v20071015'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/gnu.io.rxtx.linux.x86_64_2.1.7.3_v20071015/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/gnu.io.rxtx.linux.x86_64_2.1.7.3_v20071015'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.common.ui' version='2.7.0.v20120130-0943'>
+      <properties size='2'>
+        <property name='artifact.size' value='129056'/>
+        <property name='download.size' value='129056'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.common.ui_2.7.0.v20120130-0943.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.common.ui_2.7.0.v20120130-0943.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.ui' version='5.3.2.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='5284573'/>
+        <property name='download.size' value='5284573'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.ui_5.3.2.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.ui_5.3.2.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.emf.edit.ui' version='2.7.0.v20120130-0943'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.emf.edit.ui_2.7.0.v20120130-0943/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.emf.edit.ui_2.7.0.v20120130-0943'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.debug.ui.memory' version='2.1.200.201202111925'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.cdt.debug.ui.memory_2.1.200.201202111925/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.cdt.debug.ui.memory_2.1.200.201202111925'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.emf.ecore' version='2.7.1.v20120127-1122'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.emf.ecore_2.7.1.v20120127-1122/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.emf.ecore_2.7.1.v20120127-1122'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='biz.junginger.RssViewFeature' version='1.5.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/biz.junginger.RssViewFeature_1.5.0/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/biz.junginger.RssViewFeature_1.5.0'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.solaris' version='5.2.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='22731'/>
+        <property name='download.size' value='22731'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.core.solaris_5.2.0.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.core.solaris_5.2.0.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.tm.terminal.view' version='2.2.0.v201103142315-31-7w312214253426'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.tm.terminal.view_2.2.0.v201103142315-31-7w312214253426/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.tm.terminal.view_2.2.0.v201103142315-31-7w312214253426'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.dsf.gdb' version='4.0.2.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='1236647'/>
+        <property name='download.size' value='1236647'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.dsf.gdb_4.0.2.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.dsf.gdb_4.0.2.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.tm.te.tcf.feature' version='1.0.0.201110051049'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.tm.te.tcf.feature_1.0.0.201110051049/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.tm.te.tcf.feature_1.0.0.201110051049'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.edit.ui' version='2.7.0.v20120130-0943'>
+      <properties size='2'>
+        <property name='artifact.size' value='172906'/>
+        <property name='download.size' value='172906'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.edit.ui_2.7.0.v20120130-0943.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.edit.ui_2.7.0.v20120130-0943.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.memorybrowser' version='1.2.100.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='61712'/>
+        <property name='download.size' value='61712'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.debug.ui.memory.memorybrowser_1.2.100.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.debug.ui.memory.memorybrowser_1.2.100.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.files.core' version='3.2.101.R33x_v201107181530'>
+      <properties size='2'>
+        <property name='artifact.size' value='133457'/>
+        <property name='download.size' value='133457'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.files.core_3.2.101.R33x_v201107181530.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.files.core_3.2.101.R33x_v201107181530.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.codan.core' version='2.0.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='131077'/>
+        <property name='download.size' value='131077'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.codan.core_2.0.0.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.codan.core_2.0.0.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.xsd.edit' version='2.6.0.v20120130-0943'>
+      <properties size='2'>
+        <property name='artifact.size' value='222021'/>
+        <property name='download.size' value='222021'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.xsd.edit_2.6.0.v20120130-0943.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.xsd.edit_2.6.0.v20120130-0943.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='gnu.io.rxtx.solaris.sparc' version='2.1.7.3_v20071015'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/gnu.io.rxtx.solaris.sparc_2.1.7.3_v20071015/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/gnu.io.rxtx.solaris.sparc_2.1.7.3_v20071015'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wst.xml_userdoc.feature' version='3.3.0.v201102071641-50FYwAkF7B77UBZFDBL'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.wst.xml_userdoc.feature_3.3.0.v201102071641-50FYwAkF7B77UBZFDBL/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.wst.xml_userdoc.feature_3.3.0.v201102071641-50FYwAkF7B77UBZFDBL'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.linux.x86_64' version='5.2.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='18842'/>
+        <property name='download.size' value='18842'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.core.linux.x86_64_5.2.0.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.core.linux.x86_64_5.2.0.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.gef' version='3.7.2.v20110927-2020-777D381B4Bz0755B465D34242'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.gef_3.7.2.v20110927-2020-777D381B4Bz0755B465D34242/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.gef_3.7.2.v20110927-2020-777D381B4Bz0755B465D34242'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='gnu.io.rxtx' version='2.1.7.4_v20071024'>
+      <properties size='2'>
+        <property name='artifact.size' value='75376'/>
+        <property name='download.size' value='75376'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/gnu.io.rxtx_2.1.7.4_v20071024.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/gnu.io.rxtx_2.1.7.4_v20071024.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.dtd.ui.infopop' version='1.0.400.v201008112018'>
+      <properties size='2'>
+        <property name='artifact.size' value='8941'/>
+        <property name='download.size' value='8941'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.dtd.ui.infopop_1.0.400.v201008112018.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.dtd.ui.infopop_1.0.400.v201008112018.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.platform' version='8.0.2.201202111925'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.cdt.platform_8.0.2.201202111925/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.cdt.platform_8.0.2.201202111925'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.te.ui.controls' version='1.0.0.201110051049'>
+      <properties size='2'>
+        <property name='artifact.size' value='65155'/>
+        <property name='download.size' value='65155'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.ui.controls_1.0.0.201110051049.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.ui.controls_1.0.0.201110051049.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.core.win32.x86_64' version='5.2.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.core.win32.x86_64_5.2.0.201202111925/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.core.win32.x86_64_5.2.0.201202111925'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.dtd.core' version='1.1.501.v201107252021'>
+      <properties size='2'>
+        <property name='artifact.size' value='406074'/>
+        <property name='download.size' value='406074'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.dtd.core_1.1.501.v201107252021.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.dtd.core_1.1.501.v201107252021.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.te.tcf.log.core' version='1.0.0.201110051049'>
+      <properties size='2'>
+        <property name='artifact.size' value='19982'/>
+        <property name='download.size' value='19982'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.tcf.log.core_1.0.0.201110051049.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.tcf.log.core_1.0.0.201110051049.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.p2' version='1.0.0.201202111925'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.cdt.p2_1.0.0.201202111925/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.cdt.p2_1.0.0.201202111925'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui' version='7.1.2.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='1069995'/>
+        <property name='download.size' value='1069995'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.debug.ui_7.1.2.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.debug.ui_7.1.2.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.tcf.rse' version='0.5.0.201110031156'>
+      <properties size='2'>
+        <property name='artifact.size' value='142901'/>
+        <property name='download.size' value='142901'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.tcf.rse_0.5.0.201110031156.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.tcf.rse_0.5.0.201110031156.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='biz.junginger.rss.eclipse.RssPlugin' version='1.5.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='153771'/>
+        <property name='download.size' value='153771'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/biz.junginger.rss.eclipse.RssPlugin_1.5.0.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/biz.junginger.rss.eclipse.RssPlugin_1.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.environment' version='1.0.400.v200912181832'>
+      <properties size='2'>
+        <property name='artifact.size' value='44139'/>
+        <property name='download.size' value='44139'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.environment_1.0.400.v200912181832.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.environment_1.0.400.v200912181832.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.te.ui.terminals' version='1.0.0.201110051049'>
+      <properties size='2'>
+        <property name='artifact.size' value='76364'/>
+        <property name='download.size' value='76364'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.ui.terminals_1.0.0.201110051049.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.ui.terminals_1.0.0.201110051049.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore.change.edit' version='2.5.0.v20120130-0943'>
+      <properties size='2'>
+        <property name='artifact.size' value='29871'/>
+        <property name='download.size' value='29871'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.ecore.change.edit_2.5.0.v20120130-0943.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.ecore.change.edit_2.5.0.v20120130-0943.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore.xmi' version='2.7.0.v20120127-1122'>
+      <properties size='2'>
+        <property name='artifact.size' value='221209'/>
+        <property name='download.size' value='221209'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.ecore.xmi_2.7.0.v20120127-1122.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.ecore.xmi_2.7.0.v20120127-1122.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.debug.ui.memory.transport' version='2.1.0.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='111940'/>
+        <property name='download.size' value='111940'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.debug.ui.memory.transport_2.1.0.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.debug.ui.memory.transport_2.1.0.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.tcf.core' version='0.5.0.201110031156'>
+      <properties size='2'>
+        <property name='artifact.size' value='459187'/>
+        <property name='download.size' value='459187'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.tcf.core_0.5.0.201110031156.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.tcf.core_0.5.0.201110031156.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.te.runtime' version='1.0.0.201110051049'>
+      <properties size='2'>
+        <property name='artifact.size' value='47583'/>
+        <property name='download.size' value='47583'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.runtime_1.0.0.201110051049.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.runtime_1.0.0.201110051049.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.xsd.editor' version='2.6.0.v20120130-0943'>
+      <properties size='2'>
+        <property name='artifact.size' value='97925'/>
+        <property name='download.size' value='97925'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.xsd.editor_2.6.0.v20120130-0943.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.xsd.editor_2.6.0.v20120130-0943.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wst.xml_core.feature' version='3.3.2.v201112072049-7C7OFeMF7RZHQOIsNANyRc'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.wst.xml_core.feature_3.3.2.v201112072049-7C7OFeMF7RZHQOIsNANyRc/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.wst.xml_core.feature_3.3.2.v201112072049-7C7OFeMF7RZHQOIsNANyRc'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.ui' version='3.2.1.R33x_v201109141647'>
+      <properties size='2'>
+        <property name='artifact.size' value='1665483'/>
+        <property name='download.size' value='1665483'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.ui_3.2.1.R33x_v201109141647.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.ui_3.2.1.R33x_v201109141647.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.cdt.managedbuilder.gnu.ui' version='8.0.2.201202111925'>
+      <properties size='2'>
+        <property name='artifact.size' value='48924'/>
+        <property name='download.size' value='48924'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.managedbuilder.gnu.ui_8.0.2.201202111925.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.cdt.managedbuilder.gnu.ui_8.0.2.201202111925.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xsdeditor.doc.user' version='1.0.800.v201005192212'>
+      <properties size='2'>
+        <property name='artifact.size' value='120862'/>
+        <property name='download.size' value='120862'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.xsdeditor.doc.user_1.0.800.v201005192212.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.xsdeditor.doc.user_1.0.800.v201005192212.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.dtdeditor.doc.user' version='1.0.700.v201008112018'>
+      <properties size='2'>
+        <property name='artifact.size' value='38445'/>
+        <property name='download.size' value='38445'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.dtdeditor.doc.user_1.0.700.v201008112018.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.dtdeditor.doc.user_1.0.700.v201008112018.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.ui.views.log' version='1.0.200.v20110404'>
+      <properties size='2'>
+        <property name='artifact.size' value='138538'/>
+        <property name='download.size' value='138538'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.ui.views.log_1.0.200.v20110404.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.ui.views.log_1.0.200.v20110404.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.emf.ecore' version='2.7.0.v20120127-1122'>
+      <properties size='2'>
+        <property name='artifact.size' value='1108017'/>
+        <property name='download.size' value='1108017'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.ecore_2.7.0.v20120127-1122.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.emf.ecore_2.7.0.v20120127-1122.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.te.tcf.core' version='1.0.0.201110051049'>
+      <properties size='2'>
+        <property name='artifact.size' value='22050'/>
+        <property name='download.size' value='22050'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.tcf.core_1.0.0.201110051049.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.tcf.core_1.0.0.201110051049.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.common.modulecore' version='1.2.103.v201201190400'>
+      <properties size='2'>
+        <property name='artifact.size' value='380099'/>
+        <property name='download.size' value='380099'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.modulecore_1.2.103.v201201190400.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.common.modulecore_1.2.103.v201201190400.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.terminal.telnet' version='2.1.0.v201102010911'>
+      <properties size='2'>
+        <property name='artifact.size' value='35117'/>
+        <property name='download.size' value='35117'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.terminal.telnet_2.1.0.v201102010911.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.terminal.telnet_2.1.0.v201102010911.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.subsystems.files.ssh' version='2.1.200.v201101042155'>
+      <properties size='2'>
+        <property name='artifact.size' value='15502'/>
+        <property name='download.size' value='15502'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.files.ssh_2.1.200.v201101042155.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.subsystems.files.ssh_2.1.200.v201101042155.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt' version='8.0.2.201202111925'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.cdt_8.0.2.201202111925/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.cdt_8.0.2.201202111925'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.doc.user' version='3.3.1.R33x_v201107181530'>
+      <properties size='2'>
+        <property name='artifact.size' value='253252'/>
+        <property name='download.size' value='253252'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.doc.user_3.3.1.R33x_v201107181530.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.doc.user_3.3.1.R33x_v201107181530.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.sse.doc.user' version='1.1.100.v201005192212'>
+      <properties size='2'>
+        <property name='artifact.size' value='122162'/>
+        <property name='download.size' value='122162'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.sse.doc.user_1.1.100.v201005192212.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.sse.doc.user_1.1.100.v201005192212.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.dtd.ui' version='1.0.600.v201103171359'>
+      <properties size='2'>
+        <property name='artifact.size' value='236090'/>
+        <property name='download.size' value='236090'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.dtd.ui_1.0.600.v201103171359.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.dtd.ui_1.0.600.v201103171359.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gnu.build' version='8.0.2.201202111925'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.cdt.gnu.build_8.0.2.201202111925/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.cdt.gnu.build_8.0.2.201202111925'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wst.common.fproj' version='3.3.2.v201201121600-377DH8s735735535DD9'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.wst.common.fproj_3.3.2.v201201121600-377DH8s735735535DD9/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.wst.common.fproj_3.3.2.v201201121600-377DH8s735735535DD9'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.core' version='3.2.2.R33x_v201110030150'>
+      <properties size='2'>
+        <property name='artifact.size' value='405835'/>
+        <property name='download.size' value='405835'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.core_3.2.2.R33x_v201110030150.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.core_3.2.2.R33x_v201110030150.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.te.ui.views' version='1.0.0.201110051049'>
+      <properties size='2'>
+        <property name='artifact.size' value='41625'/>
+        <property name='download.size' value='41625'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.ui.views_1.0.0.201110051049.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.te.ui.views_1.0.0.201110051049.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.efs' version='2.1.300.v201101042155'>
+      <properties size='2'>
+        <property name='artifact.size' value='31001'/>
+        <property name='download.size' value='31001'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.efs_2.1.300.v201101042155.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.efs_2.1.300.v201101042155.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.rse.services' version='3.2.101.R33x_v201109141647'>
+      <properties size='2'>
+        <property name='artifact.size' value='276485'/>
+        <property name='download.size' value='276485'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.services_3.2.101.R33x_v201109141647.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.rse.services_3.2.101.R33x_v201109141647.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.xsd.editor' version='2.7.0.v20120130-0943'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.xsd.editor_2.7.0.v20120130-0943/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.xsd.editor_2.7.0.v20120130-0943'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.sse.ui' version='1.3.2.v201201041522'>
+      <properties size='2'>
+        <property name='artifact.size' value='1009389'/>
+        <property name='download.size' value='1009389'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.sse.ui_1.3.2.v201201041522.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.sse.ui_1.3.2.v201201041522.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.emf.ecore.edit' version='2.7.1.v20120130-0943'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.emf.ecore.edit_2.7.1.v20120130-0943/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.emf.ecore.edit_2.7.1.v20120130-0943'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.wst.xml_ui.feature' version='3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.wst.xml_ui.feature_3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.wst.xml_ui.feature_3.3.2.v201112072049-7H7EFZ7DxumTmce4khcSkIiqoD8eDMKlT8Oz011P'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.wst.xsd.core' version='1.1.600.v201104070312'>
+      <properties size='2'>
+        <property name='artifact.size' value='70889'/>
+        <property name='download.size' value='70889'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.xsd.core_1.1.600.v201104070312.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.wst.xsd.core_1.1.600.v201104070312.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.tm.terminal' version='3.1.1.R33x_v201107181530'>
+      <properties size='2'>
+        <property name='artifact.size' value='168338'/>
+        <property name='download.size' value='168338'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.terminal_3.1.1.R33x_v201107181530.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/org.eclipse.tm.terminal_3.1.1.R33x_v201107181530.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.xml' version='1.3.4.v201005080400'>
+      <properties size='2'>
+        <property name='artifact.size' value='237996'/>
+        <property name='download.size' value='237996'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/javax.xml_1.3.4.v201005080400.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/plugins/javax.xml_1.3.4.v201005080400.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.tm.tcf.feature' version='0.5.0.201110031156'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.tm.tcf.feature_0.5.0.201110031156/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.tm.tcf.feature_0.5.0.201110031156'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.cdt.gnu.dsf' version='4.0.1.201202111925'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.cdt.gnu.dsf_4.0.1.201202111925/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/tools/eclipse/features/org.eclipse.cdt.gnu.dsf_4.0.1.201202111925'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

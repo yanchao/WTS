@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/intel' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1334799076105'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='9'>
+    <artifact classifier='osgi.bundle' id='com.intel.debugger.help' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/intel/eclipse/plugins/com.intel.debugger.help/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/intel/eclipse/plugins/com.intel.debugger.help'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.intel.debugger.ui.wrsextension.linux.gtk.x86' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/intel/eclipse/plugins/com.intel.debugger.ui.wrsextension.linux.gtk.x86_1.0.0/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/intel/eclipse/plugins/com.intel.debugger.ui.wrsextension.linux.gtk.x86_1.0.0'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.intel.debugger.ui.vectorregisters' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='3833'/>
+        <property name='download.size' value='3833'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/intel/eclipse/plugins/com.intel.debugger.ui.vectorregisters_1.0.0.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/intel/eclipse/plugins/com.intel.debugger.ui.vectorregisters_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.intel.debugger.ui.wrsextension' version='1.0.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/intel/eclipse/features/com.intel.debugger.ui.wrsextension/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/intel/eclipse/features/com.intel.debugger.ui.wrsextension'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.intel.debugger.ui' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='730506'/>
+        <property name='download.size' value='730506'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/intel/eclipse/plugins/com.intel.debugger.ui_1.0.0.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/intel/eclipse/plugins/com.intel.debugger.ui_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.intel.debugger.ui.wrsextension.win32.win32.x86' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/intel/eclipse/plugins/com.intel.debugger.ui.wrsextension.win32.win32.x86_1.0.0/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/intel/eclipse/plugins/com.intel.debugger.ui.wrsextension.win32.win32.x86_1.0.0'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.intel.debugger.ui.wrsextension' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='15594'/>
+        <property name='download.size' value='15594'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/intel/eclipse/plugins/com.intel.debugger.ui.wrsextension_1.0.0.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/intel/eclipse/plugins/com.intel.debugger.ui.wrsextension_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.intel.debugger.ui.cpustructures' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='7631'/>
+        <property name='download.size' value='7631'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/intel/eclipse/plugins/com.intel.debugger.ui.cpustructures_1.0.0.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/intel/eclipse/plugins/com.intel.debugger.ui.cpustructures_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.intel.debugger.ui.plugin.ia32cpu' version='1.0.0'>
+      <properties size='2'>
+        <property name='artifact.size' value='34985'/>
+        <property name='download.size' value='34985'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/intel/eclipse/plugins/com.intel.debugger.ui.plugin.ia32cpu_1.0.0.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/intel/eclipse/plugins/com.intel.debugger.ui.plugin.ia32cpu_1.0.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<rss version="0.91">
+<channel>
+<title>Workbench 3.x Information and Updates</title>
+<link>http://www.windriver.com/feeds/workbench_300.xml</link>
+<description>Wind River Workbench 3.x Update Feed</description>
+<language>en-us</language>
+	<item>
+		<title>Wind River Workbench 3.3 Update 2</title>
+		<link>https://support.windriver.com/olsPortal/faces/maintenance/downloadDetails.jspx?contentId=037734</link>
+		<description>Wind River Workbench 3.3 Update 2 is now generally available. Workbench 3.3 update 2 is compatible with Wind River VxWorks 6.3 - 6.9.2 and Wind River Linux 3.0 - 4.3. This workbench release includes a number of enhancements including enhancements to the analysis tools, support for Simics, support for Valgrind for Wind River Linux 4.3 andnew instrumentation for VxWorks 6.9.2 dynamic power management in System Viewer.  Additionally the ViPlugin previously available within Workbench 3.2 is available for download here: https://support.windriver.com/olsPortal/faces/maintenance/downloadDetails.jspx?contentId=037372</description>
+		<pubDate>Fri, 09 Dec 2011 11:51:40 PST</pubDate>
+	</item>
+	<item>
+		<title>Wind River Workbench 3.3 Update 1</title>
+		<link>https://support.windriver.com/olsPortal/faces/maintenance/downloadDetails.jspx?contentId=036738</link>
+		<description>Wind River Workbench 3.3 Update 1 is now generally available. Workbench 3.3 is compatible with Wind River VxWorks 6.3 - 6.9 and Wind River Linux 2.0 - 4.2. Workbench 3.3 Update 1 includes a number of enhancements including a new tabular kernel objects view, improvements to the debugger and remote systems view.</description>
+		<pubDate>Fri, 29 Jul 2011 15:32:13 PST</pubDate>
+	</item>
+	<item>
+		<title>Wind River Workbench 3.3</title>
+		<link>https://support.windriver.com/olsPortal/faces/basic/product.jspx?prodId=447&amp;verId=9076&amp;productName=Wind%20River%20Workbench%203.3</link>
+		<description>Wind River Workbench 3.3 is now generally available. Workbench 3.3 is compatible with Wind River VxWorks 6.3 - 6.9 and Wind River Linux 2.0 - 4.1. This release of Workbench, based on Eclipse 3.6 Helios and CDT 7.0, includes a number of improvements and enhancements to the Workbench Analysis tools and Debugger including Workbench Debug Mode a solution for debugging with a streamlined GUI and command line integration.  Updated Host OS support includes support for 32 and 64 bit Windows 7, Red Hat Enterprise Linux 6.0, Fedora 13 and Ubuntu 10.04</description>
+		<pubDate>Thu, 07 Apr 2011 06:33:19 PST</pubDate>
+	</item>
+</channel>
+</rss>

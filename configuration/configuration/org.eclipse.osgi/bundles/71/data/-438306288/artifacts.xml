@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1334799075573'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='29'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.birt.chart.device.swt' version='3.7.2.v20120213'>
+      <properties size='2'>
+        <property name='artifact.size' value='58593'/>
+        <property name='download.size' value='58593'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.birt.chart.device.swt_3.7.2.v20120213.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.birt.chart.device.swt_3.7.2.v20120213.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.birt.chart.device.svg' version='3.7.2.v20120213'>
+      <properties size='2'>
+        <property name='artifact.size' value='68363'/>
+        <property name='download.size' value='68363'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.birt.chart.device.svg_3.7.2.v20120213.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.birt.chart.device.svg_3.7.2.v20120213.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.valgrind.cachegrind' version='0.8.1.201109262035'>
+      <properties size='2'>
+        <property name='artifact.size' value='53147'/>
+        <property name='download.size' value='53147'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.cachegrind_0.8.1.201109262035.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.cachegrind_0.8.1.201109262035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.linuxtools.profiling' version='0.8.1.201109262035'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/features/org.eclipse.linuxtools.profiling_0.8.1.201109262035/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/features/org.eclipse.linuxtools.profiling_0.8.1.201109262035'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.birt.chart.engine.extension' version='3.7.2.v20120213'>
+      <properties size='2'>
+        <property name='artifact.size' value='282900'/>
+        <property name='download.size' value='282900'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.birt.chart.engine.extension_3.7.2.v20120213.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.birt.chart.engine.extension_3.7.2.v20120213.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.analysis.valgrind.cachegrind.launch' version='1.0.0.20110817-1138'>
+      <properties size='2'>
+        <property name='artifact.size' value='3096'/>
+        <property name='download.size' value='3096'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/com.windriver.analysis.valgrind.cachegrind.launch_1.0.0.20110817-1138.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/com.windriver.analysis.valgrind.cachegrind.launch_1.0.0.20110817-1138.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.analysis.valgrind.massif.launch' version='1.0.0.20110817-1138'>
+      <properties size='2'>
+        <property name='artifact.size' value='3056'/>
+        <property name='download.size' value='3056'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/com.windriver.analysis.valgrind.massif.launch_1.0.0.20110817-1138.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/com.windriver.analysis.valgrind.massif.launch_1.0.0.20110817-1138.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.valgrind.doc' version='0.8.1.201109262035'>
+      <properties size='2'>
+        <property name='artifact.size' value='999834'/>
+        <property name='download.size' value='999834'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.doc_0.8.1.201109262035.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.doc_0.8.1.201109262035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.analysis.valgrind.launch' version='1.0.0.20120228-1000'>
+      <properties size='2'>
+        <property name='artifact.size' value='49526'/>
+        <property name='download.size' value='49526'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/com.windriver.analysis.valgrind.launch_1.0.0.20120228-1000.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/com.windriver.analysis.valgrind.launch_1.0.0.20120228-1000.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.valgrind.memcheck' version='0.8.1.201109262035'>
+      <properties size='2'>
+        <property name='artifact.size' value='23112'/>
+        <property name='download.size' value='23112'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.memcheck_0.8.1.201109262035.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.memcheck_0.8.1.201109262035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.valgrind.ui' version='0.8.1.201110191026'>
+      <properties size='2'>
+        <property name='artifact.size' value='26571'/>
+        <property name='download.size' value='26571'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.ui_0.8.1.201110191026.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.ui_0.8.1.201110191026.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.birt.core' version='3.7.2.v20120213'>
+      <properties size='2'>
+        <property name='artifact.size' value='486710'/>
+        <property name='download.size' value='486710'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.birt.core_3.7.2.v20120213.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.birt.core_3.7.2.v20120213.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.analysis.valgrind.helgrind.launch' version='1.0.0.20111013-1242'>
+      <properties size='2'>
+        <property name='artifact.size' value='3042'/>
+        <property name='download.size' value='3042'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/com.windriver.analysis.valgrind.helgrind.launch_1.0.0.20111013-1242.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/com.windriver.analysis.valgrind.helgrind.launch_1.0.0.20111013-1242.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.valgrind.launch' version='0.8.1.201110191026'>
+      <properties size='2'>
+        <property name='artifact.size' value='55890'/>
+        <property name='download.size' value='55890'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.launch_0.8.1.201110191026.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.launch_0.8.1.201110191026.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.valgrind.helgrind' version='0.8.1.201109262035'>
+      <properties size='2'>
+        <property name='artifact.size' value='20768'/>
+        <property name='download.size' value='20768'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.helgrind_0.8.1.201109262035.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.helgrind_0.8.1.201109262035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.birt.chart.engine' version='3.7.2.v20120213'>
+      <properties size='2'>
+        <property name='artifact.size' value='1653044'/>
+        <property name='download.size' value='1653044'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.birt.chart.engine_3.7.2.v20120213.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.birt.chart.engine_3.7.2.v20120213.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.analysis.valgrind.memcheck.launch' version='1.0.0.20110817-1139'>
+      <properties size='2'>
+        <property name='artifact.size' value='3057'/>
+        <property name='download.size' value='3057'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/com.windriver.analysis.valgrind.memcheck.launch_1.0.0.20110817-1139.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/com.windriver.analysis.valgrind.memcheck.launch_1.0.0.20110817-1139.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.profiling.launch' version='0.8.1.201109262035'>
+      <properties size='2'>
+        <property name='artifact.size' value='24217'/>
+        <property name='download.size' value='24217'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.profiling.launch_0.8.1.201109262035.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.profiling.launch_0.8.1.201109262035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.valgrind.launch' version='0.8.1.201109262035'>
+      <properties size='2'>
+        <property name='artifact.size' value='61737'/>
+        <property name='download.size' value='61737'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.launch_0.8.1.201109262035.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.launch_0.8.1.201109262035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.valgrind.core' version='0.8.1.201109262035'>
+      <properties size='2'>
+        <property name='artifact.size' value='30271'/>
+        <property name='download.size' value='30271'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.core_0.8.1.201109262035.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.core_0.8.1.201109262035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.valgrind.ui' version='0.8.1.201109262035'>
+      <properties size='2'>
+        <property name='artifact.size' value='32401'/>
+        <property name='download.size' value='32401'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.ui_0.8.1.201109262035.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.ui_0.8.1.201109262035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.linuxtools.valgrind' version='0.8.1.201109262035'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/features/org.eclipse.linuxtools.valgrind_0.8.1.201109262035/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/features/org.eclipse.linuxtools.valgrind_0.8.1.201109262035'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.windriver.analysis.valgrind.feature' version='1.0.0.20120228-1000'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/features/com.windriver.analysis.valgrind.feature_1.0.0.20120228-1000/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/features/com.windriver.analysis.valgrind.feature_1.0.0.20120228-1000'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.valgrind.core' version='0.8.1.201110191026'>
+      <properties size='2'>
+        <property name='artifact.size' value='22818'/>
+        <property name='download.size' value='22818'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.core_0.8.1.201110191026.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.core_0.8.1.201110191026.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='org.eclipse.linuxtools.valgrind.patch' version='0.8.1.wr332'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/features/org.eclipse.linuxtools.valgrind.patch_0.8.1.wr332/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/features/org.eclipse.linuxtools.valgrind.patch_0.8.1.wr332'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.profiling.ui' version='0.8.1.201109262035'>
+      <properties size='2'>
+        <property name='artifact.size' value='16440'/>
+        <property name='download.size' value='16440'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.profiling.ui_0.8.1.201109262035.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.profiling.ui_0.8.1.201109262035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.valgrind.massif' version='0.8.1.201109262035'>
+      <properties size='2'>
+        <property name='artifact.size' value='92586'/>
+        <property name='download.size' value='92586'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.massif_0.8.1.201109262035.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.massif_0.8.1.201109262035.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.birt.chart.device.extension' version='3.7.2.v20120213'>
+      <properties size='2'>
+        <property name='artifact.size' value='145373'/>
+        <property name='download.size' value='145373'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.birt.chart.device.extension_3.7.2.v20120213.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.birt.chart.device.extension_3.7.2.v20120213.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.linuxtools.valgrind.ui.editor' version='0.8.1.201109262035'>
+      <properties size='2'>
+        <property name='artifact.size' value='48305'/>
+        <property name='download.size' value='48305'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.ui.editor_0.8.1.201109262035.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/valgrind/eclipse/plugins/org.eclipse.linuxtools.valgrind.ui.editor_0.8.1.201109262035.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

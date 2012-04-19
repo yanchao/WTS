@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/wrlinux' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1334799077280'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='9'>
+    <artifact classifier='osgi.bundle' id='com.windriver.ide.wrlinux.ui.linux' version='3.3.2.20110920-1359'>
+      <properties size='2'>
+        <property name='artifact.size' value='1642'/>
+        <property name='download.size' value='1642'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/wrlinux/eclipse/plugins/com.windriver.ide.wrlinux.ui.linux_3.3.2.20110920-1359.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/wrlinux/eclipse/plugins/com.windriver.ide.wrlinux.ui.linux_3.3.2.20110920-1359.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.ide.wrlinux.ui' version='3.3.2.20120109-1603'>
+      <properties size='2'>
+        <property name='artifact.size' value='1223932'/>
+        <property name='download.size' value='1223932'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/wrlinux/eclipse/plugins/com.windriver.ide.wrlinux.ui_3.3.2.20120109-1603.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/wrlinux/eclipse/plugins/com.windriver.ide.wrlinux.ui_3.3.2.20120109-1603.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.ide.wrlinux.core' version='3.3.2.20111013-1508'>
+      <properties size='2'>
+        <property name='artifact.size' value='384453'/>
+        <property name='download.size' value='384453'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/wrlinux/eclipse/plugins/com.windriver.ide.wrlinux.core_3.3.2.20111013-1508.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/wrlinux/eclipse/plugins/com.windriver.ide.wrlinux.core_3.3.2.20111013-1508.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.ide.wrlinux.qt' version='3.3.2.20110920-1400'>
+      <properties size='2'>
+        <property name='artifact.size' value='39940'/>
+        <property name='download.size' value='39940'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/wrlinux/eclipse/plugins/com.windriver.ide.wrlinux.qt_3.3.2.20110920-1400.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/wrlinux/eclipse/plugins/com.windriver.ide.wrlinux.qt_3.3.2.20110920-1400.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.ide.wrlinux.ui.win32' version='3.3.2.20110920-1359'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/wrlinux/eclipse/plugins/com.windriver.ide.wrlinux.ui.win32_3.3.2.20110920-1359/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/wrlinux/eclipse/plugins/com.windriver.ide.wrlinux.ui.win32_3.3.2.20110920-1359'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.windriver.ide.wrlinux' version='3.3.2.20120412-0627'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/wrlinux/eclipse/features/com.windriver.ide.wrlinux_3.3.2.20120412-0627/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/wrlinux/eclipse/features/com.windriver.ide.wrlinux_3.3.2.20120412-0627'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.windriver.ide.wrlinux.platdev' version='3.3.2.20110920-1359'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/wrlinux/eclipse/features/com.windriver.ide.wrlinux.platdev_3.3.2.20110920-1359/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/wrlinux/eclipse/features/com.windriver.ide.wrlinux.platdev_3.3.2.20110920-1359'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.ide.wrlinux.ui.solaris' version='3.3.2.20110920-1359'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/wrlinux/eclipse/plugins/com.windriver.ide.wrlinux.ui.solaris_3.3.2.20110920-1359/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/wrlinux/eclipse/plugins/com.windriver.ide.wrlinux.ui.solaris_3.3.2.20110920-1359'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.ide.wrlinux' version='3.3.2.20120412-0627'>
+      <properties size='2'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/wrlinux/eclipse/plugins/com.windriver.ide.wrlinux_3.3.2.20120412-0627/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/wrwb/wrlinux/eclipse/plugins/com.windriver.ide.wrlinux_3.3.2.20120412-0627'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

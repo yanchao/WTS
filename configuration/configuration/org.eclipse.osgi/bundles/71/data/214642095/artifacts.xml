@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1334799075715'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='23'>
+    <artifact classifier='osgi.bundle' id='com.windriver.scopetools.common.ui' version='3.3.2.20120229-0419'>
+      <properties size='2'>
+        <property name='artifact.size' value='254131'/>
+        <property name='download.size' value='254131'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.scopetools.common.ui_3.3.2.20120229-0419.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.scopetools.common.ui_3.3.2.20120229-0419.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.windriver.ide.scope.profile' version='3.3.2.20120312-0830'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/features/com.windriver.ide.scope.profile_3.3.2.20120312-0830/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/features/com.windriver.ide.scope.profile_3.3.2.20120312-0830'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.scopetools.console' version='3.3.2.20120312-0838'>
+      <properties size='2'>
+        <property name='artifact.size' value='78363'/>
+        <property name='download.size' value='78363'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.scopetools.console_3.3.2.20120312-0838.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.scopetools.console_3.3.2.20120312-0838.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.windriver.analysis.pe.common' version='3.3.2.201204121020'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/features/com.windriver.analysis.pe.common_3.3.2.201204121020/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/features/com.windriver.analysis.pe.common_3.3.2.201204121020'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.windriver.ide.scope.memory' version='3.3.2.20120229-0420'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/features/com.windriver.ide.scope.memory_3.3.2.20120229-0420/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/features/com.windriver.ide.scope.memory_3.3.2.20120229-0420'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.analysis.messagebroadcast' version='1.1.0.201103160256'>
+      <properties size='2'>
+        <property name='artifact.size' value='13445'/>
+        <property name='download.size' value='13445'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.analysis.messagebroadcast_1.1.0.201103160256.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.analysis.messagebroadcast_1.1.0.201103160256.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.scopetools.stethoscope' version='3.3.2.20110920-1531'>
+      <properties size='2'>
+        <property name='artifact.size' value='150056'/>
+        <property name='download.size' value='150056'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.scopetools.stethoscope_3.3.2.20110920-1531.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.scopetools.stethoscope_3.3.2.20110920-1531.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.windriver.ide.scope.datamonitor' version='3.3.2.20110920-1531'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/features/com.windriver.ide.scope.datamonitor_3.3.2.20110920-1531/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/features/com.windriver.ide.scope.datamonitor_3.3.2.20110920-1531'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.scopetools.profilescope.ui' version='3.3.2.20120312-0830'>
+      <properties size='2'>
+        <property name='artifact.size' value='386381'/>
+        <property name='download.size' value='386381'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.scopetools.profilescope.ui_3.3.2.20120312-0830.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.scopetools.profilescope.ui_3.3.2.20120312-0830.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.scopetools.profilescope.core' version='3.3.2.20111028-0929'>
+      <properties size='2'>
+        <property name='artifact.size' value='195327'/>
+        <property name='download.size' value='195327'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.scopetools.profilescope.core_3.3.2.20111028-0929.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.scopetools.profilescope.core_3.3.2.20111028-0929.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.analysis.coveragescope.ui' version='3.3.2.20120229-0419'>
+      <properties size='2'>
+        <property name='artifact.size' value='407031'/>
+        <property name='download.size' value='407031'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.analysis.coveragescope.ui_3.3.2.20120229-0419.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.analysis.coveragescope.ui_3.3.2.20120229-0419.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.windriver.ide.scope.common' version='3.3.2.20120323-0752'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/features/com.windriver.ide.scope.common_3.3.2.20120323-0752/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/features/com.windriver.ide.scope.common_3.3.2.20120323-0752'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.analysis.cafe.legacytools' version='1.0.0.201105181356'>
+      <properties size='2'>
+        <property name='artifact.size' value='54575'/>
+        <property name='download.size' value='54575'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.analysis.cafe.legacytools_1.0.0.201105181356.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.analysis.cafe.legacytools_1.0.0.201105181356.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.analysis.cafe.cafetype' version='1.0.0.201103160256'>
+      <properties size='2'>
+        <property name='artifact.size' value='317549'/>
+        <property name='download.size' value='317549'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.analysis.cafe.cafetype_1.0.0.201103160256.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.analysis.cafe.cafetype_1.0.0.201103160256.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.analysis.connection.tcf' version='1.0.0.201103160256'>
+      <properties size='2'>
+        <property name='artifact.size' value='450510'/>
+        <property name='download.size' value='450510'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.analysis.connection.tcf_1.0.0.201103160256.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.analysis.connection.tcf_1.0.0.201103160256.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.scopetools.memscope.ui' version='3.3.2.20120229-0420'>
+      <properties size='2'>
+        <property name='artifact.size' value='601787'/>
+        <property name='download.size' value='601787'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.scopetools.memscope.ui_3.3.2.20120229-0420.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.scopetools.memscope.ui_3.3.2.20120229-0420.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.scopetools.common.core' version='3.3.2.20120323-0752'>
+      <properties size='2'>
+        <property name='artifact.size' value='240699'/>
+        <property name='download.size' value='240699'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.scopetools.common.core_3.3.2.20120323-0752.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.scopetools.common.core_3.3.2.20120323-0752.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.windriver.ide.scope.coverage' version='3.3.2.20120307-0854'>
+      <properties size='3'>
+        <property name='artifact.size' value='4096'/>
+        <property name='download.size' value='4096'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+      <repositoryProperties size='3'>
+        <property name='artifact.folder' value='true'/>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/features/com.windriver.ide.scope.coverage_3.3.2.20120307-0854/'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/features/com.windriver.ide.scope.coverage_3.3.2.20120307-0854'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.scopetools.memscope.ui.launch' version='3.3.2.20120229-0420'>
+      <properties size='2'>
+        <property name='artifact.size' value='156980'/>
+        <property name='download.size' value='156980'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.scopetools.memscope.ui.launch_3.3.2.20120229-0420.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.scopetools.memscope.ui.launch_3.3.2.20120229-0420.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.analysis.logging' version='1.0.0.201103160256'>
+      <properties size='2'>
+        <property name='artifact.size' value='10338'/>
+        <property name='download.size' value='10338'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.analysis.logging_1.0.0.201103160256.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.analysis.logging_1.0.0.201103160256.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.analysis.coveragescope.core' version='3.3.2.20120307-0854'>
+      <properties size='2'>
+        <property name='artifact.size' value='285428'/>
+        <property name='download.size' value='285428'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.analysis.coveragescope.core_3.3.2.20120307-0854.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.analysis.coveragescope.core_3.3.2.20120307-0854.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.scopetools.memscope.core' version='3.3.2.20111008-1156'>
+      <properties size='2'>
+        <property name='artifact.size' value='451193'/>
+        <property name='download.size' value='451193'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.scopetools.memscope.core_3.3.2.20111008-1156.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.scopetools.memscope.core_3.3.2.20111008-1156.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.windriver.analysis.connection' version='1.0.0.201103160256'>
+      <properties size='2'>
+        <property name='artifact.size' value='125205'/>
+        <property name='download.size' value='125205'/>
+      </properties>
+      <repositoryProperties size='2'>
+        <property name='artifact.reference' value='file:/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.analysis.connection_1.0.0.201103160256.jar'/>
+        <property name='file.name' value='/folk/wb/working_qf/vx692wb3322/r_r_wb16.12sp/workbench-3.3/analysis/extensions/eclipse/plugins/com.windriver.analysis.connection_1.0.0.201103160256.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>

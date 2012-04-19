@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Generated-from: 1287747408000;type=2
+Bundle-ManifestVersion: 2
+Bundle-Name: standard_ccplus_libraries
+Bundle-SymbolicName: com.windriver.ide.doc.standard_ccplus_libraries
+Bundle-Version: 6.9
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActivator
+Bundle-Vendor: Wind River Systems, Inc.
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime;bundle-version="2.1",
+ org.eclipse.core.runtime.compatibility
