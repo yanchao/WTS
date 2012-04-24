@@ -152,15 +152,15 @@ def start_sut (root_ws, report_dir):
     # remove configuration directory
     cfg_dir = os.path.join(root_ws,'configuration')
     if os.path.exists(cfg_dir):
-        shutil.rmtree(cfg_dir,ignore_erros=True)
+        shutil.rmtree(cfg_dir,ignore_errors=True)
 
     wdm_workspace = os.path.join(root_ws,'wdm_workspace')
     if os.path.exists(wdm_workspace):
-        shutil.rmtree(wdm_workspace,ignore_erros=True)
+        shutil.rmtree(wdm_workspace,ignore_errors=True)
 
     wb_workspace = os.path.join(root_ws,'wb_workspace')
     if os.path.exists(wb_workspace):
-        shutil.rmtree(wb_workspace,ignore_erros=True)
+        shutil.rmtree(wb_workspace,ignore_errors=True)
 
     qflogs = os.path.join(root_ws, 'wdm.qrz')
     report = os.path.join(report_dir,'report','report.html')
